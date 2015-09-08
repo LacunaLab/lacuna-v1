@@ -1,6 +1,6 @@
 (function() {
   var whatitis = [
-    'art', 'collaboration', 'science', 
+    'art', 'collaboration', 'science', 'love',
     'experimenting', 'learning', 'exploration',
     'sharing', 'tweaking', 'creating', 'people',
     'utopia', 'questioning', 'hacking'
