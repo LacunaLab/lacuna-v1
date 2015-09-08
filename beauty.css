@@ -15,3 +15,13 @@ body {
   left: 20px;
   bottom: 20px;
 }
+
+#logo {
+  width: 202px;
+  height: 204px;
+}
+
+#channels img {
+  width: 50px;
+  height: 50px;
+}
