@@ -6,3 +6,11 @@ body {
 #header {
 	text-align: center;	
 }
+
+#phrase {
+  font-size: 160%;
+  font-family: monospace;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
