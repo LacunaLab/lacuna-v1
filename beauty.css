@@ -9,6 +9,7 @@ body {
   left: 0;
   right: 0;
   top:0%;
+  background-color: white; /* ra: why not the fuck? */
 
   text-align: center;
 }
@@ -36,8 +37,18 @@ body {
 .navigate {
   position: fixed;
   top: 300px;
+  width:15%;
+  float: left;
 }
 
+#statement {
+  position: absolute;
+  font-family: monospace;
+  margin: auto;
+  padding-top: 50px;
+  width: 500px;
+  top:300px;
+}
 
 #channels img {
   width: 50px;
@@ -47,13 +58,10 @@ body {
   -o-filter: brightness(0%);
   -ms-filter: brightness(0%);
   filter: brightness(0%);
-
-  transform: scale(0.9);
-  
+  transform: scale(0.95);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-
 #channels img:hover {
   -webkit-filter: brightness(100%);
   -moz-filter: brightness(100%);
@@ -66,7 +74,7 @@ body {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-
+/* fuck doesnt really work. this should fix mobile devives, which don't have a cursor. no hover magic there...*/
 @media (pointer: coarse) {
  -webkit-filter: brightness(100%);
   -moz-filter: brightness(100%);
@@ -75,4 +83,3 @@ body {
   filter: brightness(100%);
   transform: scale(0.9);
 }
-
