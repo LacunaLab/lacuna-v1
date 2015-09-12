@@ -22,6 +22,7 @@ body {
 }
 
 #statement {
+  font-family: monospace;
   margin: auto;
   padding-top: 50px;
   width: 500px;
