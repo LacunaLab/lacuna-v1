@@ -5,13 +5,19 @@ body {
 }
 
 #header {
-	text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  text-align: center;
 }
 
 #phrase {
+  position: fixed;
+  bottom: 0;
+
   font-size: 160%;
   font-family: monospace;
-  position: absolute;
   left: 20px;
   bottom: 20px;
 }
@@ -21,6 +27,8 @@ body {
   height: 204px;
 }
 
+
+
 #channels img {
   width: 50px;
   height: 50px;
@@ -29,18 +37,22 @@ body {
   -o-filter: brightness(0%);
   -ms-filter: brightness(0%);
   filter: brightness(0%);
+
   transform: scale(0.9);
+  
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 #channels img:hover {
- -webkit-filter: brightness(100%);
+  -webkit-filter: brightness(100%);
   -moz-filter: brightness(100%);
   -o-filter: brightness(100%);
   -ms-filter: brightness(100%);
   filter: brightness(100%);
+
   transform: scale(1.2);
+
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
