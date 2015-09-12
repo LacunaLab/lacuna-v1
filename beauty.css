@@ -44,3 +44,12 @@ body {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+
+@media only screen {
+ -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+  transform: scale(1.0);  
+}
