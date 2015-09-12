@@ -2,14 +2,19 @@
   <html>
     <head>
     <title>Lacuna Lab</title>
-    <meta name="viewport" content="initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" type="text/css" href="beauty.css">
   </head>
   <body>
 
-    <div id="header" data-0="transform:sclae(1.0)" data-200="transform:scale(0.7)">
-      <img src="images/LacunaLab_logo.jpg" id="logo">
-        <div id="channels" data-300="left:0%">
+    <div id="header" 
+    data-0="transform:scale(1.0);top:0px" 
+    data-200="transform:scale(0.7);top:-40px">
+      <img src="images/LacunaLab_logo.jpg" id="logo" data-300="left:0%">
+        <div id="channels"
+        data-0="right:30%; top: 100%;" 
+        data-400="right[bounce]: -9%;"
+        data-600="top[cubic]:10%">
             <a href="https://twitter.com/lacunalab"><img src="images/twitter.png"></a>
             <a href="https://vimeo.com/lacunalab"><img src="images/vimeo.png"></a>
             <a href="http://lacunalab.tumblr.com/"><img src="images/tumblr.png"></a>
@@ -29,6 +34,9 @@
     <script src="js/phrase.js"></script>
     <script src="js/servantOfBeauty.js"></script>
     <script src="js/skrollr.min.js"></script>
-    <script src="js/skroll_main.js"></script>
+   <!-- <script src="js/skroll_main.js"></script> -->
+   <script type="text/javascript">
+   var s = skrollr.init();
+   </script>
   </body>
 </html>

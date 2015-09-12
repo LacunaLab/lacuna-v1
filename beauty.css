@@ -8,8 +8,14 @@ body {
   position: fixed;
   left: 0;
   right: 0;
+  top:0%;
 
   text-align: center;
+}
+
+#channels {
+  position: absolute;
+  width: 40%;
 }
 
 #phrase {
@@ -27,6 +33,10 @@ body {
   height: 204px;
 }
 
+.navigate {
+  position: fixed;
+  top: 300px;
+}
 
 
 #channels img {
