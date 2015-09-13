@@ -9,24 +9,17 @@ body {
   left: 0;
   right: 0;
   top:0%;
-  background-color: white; /* ra: why not the fuck? */
+  background-color: rgba(255,255,255,0.8);
+  z-index: 1;
 
   text-align: center;
-}
 
-#channels {
-  position: absolute;
-  width: 40%;
-}
-
-#phrase {
-  position: fixed;
-  bottom: 0;
-
-  font-size: 160%;
-  font-family: monospace;
-  left: 20px;
-  bottom: 20px;
+  background: -moz-linear-gradient(top, rgba(255,0,255,1) 0%, rgba(255,0,255,0.95) 60%, rgba(255,255,255,0.95) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,255,1)), color-stop(60%,rgba(255,0,255,0.95)), color-stop(100%,rgba(255,255,255,0.95))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255,0,255,1) 0%,rgba(255,0,255,0.95) 60%,rgba(255,255,255,0.95) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255,0,255,1) 0%,rgba(255,0,255,0.95) 60%,rgba(255,255,255,0.95) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255,0,255,1) 0%,rgba(255,0,255,0.95) 60%,rgba(255,255,255,0.95) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255,0,255,1) 0%,rgba(255,0,255,0.95) 60%,rgba(255,255,255,0.95) 100%); /* W3C */
 }
 
 #logo {
@@ -37,7 +30,8 @@ body {
 .navigate {
   position: fixed;
   top: 300px;
-  width:15%;
+  width: 15%;
+  right: 50px;
   float: left;
 }
 
@@ -47,7 +41,25 @@ body {
   margin: auto;
   padding-top: 50px;
   width: 500px;
-  top:300px;
+  top: 300px;
+}
+
+#phrase {
+  position: fixed;
+  bottom: 0;
+
+  font-size: 160%;
+  font-family: monospace;
+  left: 20px;
+  bottom: 20px;
+
+  background-color: rgb(255,206,25);
+  z-index: 1;
+}
+
+#channels {
+  position: absolute;
+  width: 40%;
 }
 
 #channels img {
