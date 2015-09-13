@@ -23,6 +23,8 @@ body {
 }
 
 #logo {
+  position: relative;
+  top:20px;
   width: 202px;
   height: 204px;
 }
@@ -39,7 +41,7 @@ body {
   position: absolute;
   font-family: monospace;
   margin: auto;
-  padding-top: 50px;
+  padding-top: 10px;
   width: 500px;
   top: 300px;
 }
