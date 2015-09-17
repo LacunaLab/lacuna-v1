@@ -28,7 +28,7 @@ var yShort = [];  // Using an array to store height values for the wave
 var Y_AXIS = 1;
 var X_AXIS = 2;
 
-var logo;
+var logo, logo_mask;
 
 p.preload = function() {
   logo = p.loadImage("../images/LacunaLab_logo.jpg"); //202 x 204 px
@@ -40,27 +40,33 @@ p.setup = function() {
   canvas.id("canvasHead");
   p.background(255);
 
-  logo.loadPixels();
-  logo.pixels
-  logo.updatePixels();
-
-  var cvs;
   for (var i=0; i<wvs; i++) {
-    cvs = visSpec(i); 
-    p.stroke(cvs);
+    p.stroke(visSpec(i));
     var x = (p.width-wvs)/2+i;
     p.line(x,0,x,p.height-1);
   }
+
+  p.image(logo,(p.width-logo.width)/2,ygaptop);
 
   p.stroke(255);
   w = (p.width-wvs)/2;
 }
 
-p.draw = function() {
+p.draw = function() { 
   clearWaves();
   calcWave();
   renderWave();  
-  p.image(logo,(p.width-logo.width)/2,ygaptop);
+  if (p.mouseX>(p.width-wvs)/2 && p.mouseX<(p.width+wvs)/2 && p.mouseY>ygaptop && p.pmouseY<(logo.height+ygaptop)) {
+    var cvs;
+    for (var i=0; i<wvs; i++) {
+      p.stroke(visSpec(i));
+      var x = (p.width-wvs)/2+i;
+      p.line(x,0,x,p.height-1);
+    }
+    p.blend(logo, 0, 0, logo.width, logo.height, (p.width-logo.width)/2,ygaptop, logo.width, logo.height, p.LIGHTEST);
+  } else {
+    p.image(logo,(p.width-logo.width)/2,ygaptop);
+  }
 }
 
 function visSpec(i) {
@@ -98,11 +104,13 @@ function visSpec(i) {
 function clearWaves() {
   setGradient(0,0,(p.width-wvs)/2-1,ygrad,p.color(0),p.color(255),Y_AXIS);
   setGradient((p.width+wvs)/2,0,(p.width-wvs)/2,ygrad,p.color(0),p.color(255),Y_AXIS);
-//// or no gradient
-//  p.fill(0);
-//  p.stroke(0);
-//  p.rect(0,0,(p.width-wvs)/2,p.height);
-//  p.rect((p.width+wvs)/2,0,(p.width-wvs)/2,p.height);
+/*
+// or no gradient
+  p.fill(0);
+  p.stroke(0);
+  p.rect(0,0,(p.width-wvs)/2,p.height);
+  p.rect((p.width+wvs)/2,0,(p.width-wvs)/2,p.height);
+*/
 }
 
 function calcWave() {
@@ -130,15 +138,17 @@ function renderWave() {
   for (var x = 0; x < yShort.length-2; x++) {
     p.line(x*xspacing+(p.width+wvs)/2, yoff+yShort[x],(x+1)*xspacing+(p.width+wvs)/2, yoff+yShort[x+1]);
   }
-//// or with dots
-  //noStroke();
-  //fill(255);
-  //for (var x = 0; x < yLong.length; x++) {
-  //  p.ellipse(x*xspacing, p.height/2+yLong[x], 2, 2);
-  //}
-  //for (var x = 0; x < yShort.length; x++) {
-  //  p.ellipse(x*xspacing+(p.width+wvs)/2, p.height/2+yShort[x], 2, 2);
-  //}
+/*
+// or with dots
+  noStroke();
+  fill(255);
+  for (var x = 0; x < yLong.length; x++) {
+    p.ellipse(x*xspacing, p.height/2+yLong[x], 2, 2);
+  }
+  for (var x = 0; x < yShort.length; x++) {
+    p.ellipse(x*xspacing+(p.width+wvs)/2, p.height/2+yShort[x], 2, 2);
+  }
+*/
 }
 
 
