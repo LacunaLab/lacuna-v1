@@ -4,11 +4,15 @@ body, html {
 
 .navbar {
   background-color:#FFFFFF;
-  }
+}
 
 .navbar-brand {
   color:#FFFFFF;
-  }
+}
+
+.jumbotron {
+  background-color:#FFFFFF;
+}
 
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
