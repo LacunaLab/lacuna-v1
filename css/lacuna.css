@@ -22,8 +22,9 @@ body, html {
   align-items: center;
 }
 
-#section-contact {
+.section-dark {
   background-color: #000000;
+  color:#AAAAAA;
 }
 
 #phrase {
