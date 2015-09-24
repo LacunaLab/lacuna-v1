@@ -1,0 +1,29 @@
+body, html {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.navbar {
+  background-color:#FFFFFF;
+  }
+
+.navbar-brand {
+  color:#FFFFFF;
+  }
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+#section-contact {
+  background-color: #000000;
+}
+
+#phrase {
+  font-size: 160%;
+  font-family: monospace;
+  padding-top: 10px;
+}
