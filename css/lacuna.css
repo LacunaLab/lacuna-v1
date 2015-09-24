@@ -27,3 +27,7 @@ body, html {
   font-family: monospace;
   padding-top: 10px;
 }
+
+#logo {
+  margin-top: 20px;
+}
