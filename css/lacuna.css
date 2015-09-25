@@ -28,11 +28,24 @@ body, html {
 }
 
 #phrase {
-  font-size: 160%;
+  position: absolute;
+  left:15px;
+  top:15px;
+  font-size: 100%;
   font-family: monospace;
-  padding-top: 10px;
+}
+@media (max-width: 360px) {
+  #phrase {
+    font-size: 90%;
+  }
 }
 
 #logo {
-  margin-top: 0px;
+  margin-top: 25px;
 }
+@media (max-width: 767px) {
+  #logo {
+    margin-top:45px;
+  }
+}
+
