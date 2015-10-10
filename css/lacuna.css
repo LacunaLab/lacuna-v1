@@ -22,6 +22,11 @@ body, html {
   align-items: center;
 }
 
+.horizontal-center {
+  display: flex;
+  justify-content: center; /* align horizontal */
+}
+
 .section-dark {
   background-color: #000000;
   color:#AAAAAA;
@@ -49,3 +54,11 @@ body, html {
   }
 }
 
+#contact {
+  font-style: italic;
+  font-size: 110%;
+}
+
+.contact-header {
+  font-weight: bold;
+}
