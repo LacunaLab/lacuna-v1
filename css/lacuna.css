@@ -54,6 +54,13 @@ body, html {
   }
 }
 
+iframe, div #contact {
+border: 20px solid transparent;
+border-image-source: url(../images/bw.png);
+border-image-slice: 60;
+height: 270px;
+}
+
 #contact {
   font-style: italic;
   font-size: 110%;
