@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Lacuna Members</h2>
+    
+    <ul class="row list-unstyled">
+        
+        {% for member in site.data.members %}
+        
+        <li class="col-md-4">
+            <a class="brackets" href="{{ member.website }}">
+              {{ member.name }}
+            </a>
+        </li>
+        
+        {% endfor %}
+    
+    </ul>
+</div>

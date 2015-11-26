@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>Upcoming Events</h2>
+    <div class="row">
+
+        {% for event in site.data.events %}
+
+        <!-- TODO: Not sure how to sort events by date... -->
+
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{ event.name }}</h3>
+                    <div> {{ event.date | date: '%B %d, %Y' }}, {{ event.time }} </div>
+                    <div> {{ event.location }} </div>
+                </div>
+                <div class="panel-body">
+                    {{ event.description }}
+                </div>
+            </div>
+        </div>
+
+        {% assign loopindex = forloop.index | modulo: 3 %}
+        {% if loopindex == 0 %}
+          <div class="clearfix"></div>
+        {% endif %}
+
+        {% endfor %}
+    </div>
+</div>

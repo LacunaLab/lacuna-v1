@@ -1,0 +1,35 @@
+/* add [ ] logotype to horizontal rules */
+hr {
+    height: 1px;
+    border: none;
+    background-color: $grey;
+    color: $grey;
+    text-align: center;
+}
+
+hr.brackets:after {
+    white-space: pre;
+    content: "[  ]";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: $white;
+}
+
+.jumbotron {
+  background: $white;
+}
+
+a.brackets:before {
+  content: "[ ";
+}
+
+a.brackets:after {
+  content: " ]";
+}
+
+h1 {
+  font-family: $font-family-serif;
+}
