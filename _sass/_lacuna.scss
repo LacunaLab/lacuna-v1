@@ -22,6 +22,10 @@ hr.brackets:after {
   background: $white;
 }
 
+#map {
+    height: 135px;
+}
+
 a.brackets:before {
   content: "[ ";
 }
