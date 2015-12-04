@@ -1,2 +1,2 @@
 ## Setup notes
-[installation notes](SETUP.md)
+[Installation notes](SETUP.md)
