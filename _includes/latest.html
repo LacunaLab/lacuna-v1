@@ -1,6 +1,12 @@
 <div class="container">
     <h2>Latest Stuff</h2>
-    <div style="border: 1px solid black; height: 300px">
-      Placeholder for videos and other external content (Vimeo, Tumblr...)
-    </div>
+
+
+<script type="text/javascript">
+	$.get("http://lacunalab.tumblr.com/api/read/json?num=1",
+		function(data){
+			console.log(data);
+		},"json");
+</script>
+
 </div>

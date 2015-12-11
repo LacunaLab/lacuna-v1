@@ -20,6 +20,7 @@ hr.brackets:after {
 
 .jumbotron {
   background: $white;
+  margin-top: 20px;
 }
 
 #map {
@@ -36,4 +37,15 @@ a.brackets:after {
 
 h1 {
   font-family: $font-family-serif;
+}
+
+#logo {
+  width: 28%;
+  margin-left: auto;
+  margin-bottom: 12%;
+  margin-top: 12%;
+}
+
+hr {
+  width: 90%;
 }
