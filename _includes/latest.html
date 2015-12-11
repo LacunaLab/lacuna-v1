@@ -1,12 +1,64 @@
-<div class="container">
+<div class="container" >
     <h2>Latest Stuff</h2>
 
+<div id="latestCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#latestCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#latestCarousel" data-slide-to="1"></li>
+    <li data-target="#latestCarousel" data-slide-to="2"></li>
+    <li data-target="#latestCarousel" data-slide-to="3"></li>
+    <li data-target="#latestCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active latestContainer">
+    </div>
+    <div class="item latestContainer">
+    </div>
+    <div class="item latestContainer">
+    </div>
+    <div class="item latestContainer">
+    </div>
+    <div class="item latestContainer">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#latestCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#latestCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 <script type="text/javascript">
-	$.get("http://lacunalab.tumblr.com/api/read/json?num=1",
+	$.get("http://lacunalab.tumblr.com/api/read/json?num=5",
 		function(data){
-			console.log(data);
-		},"json");
+			//console.log(data);
+			var posts = data.posts;
+			var latestContainer = $('.latestContainer');
+			for(var i = 0; i < posts.length; i++){
+				var post = data.posts[i];
+				var container = latestContainer.eq(i);
+				//console.log(container);
+				var postType = post.type;
+				console.log(postType);
+				if(postType == "video") {
+					container.append(post["video-source"]);
+				} else if(postType == "photo") {
+					//debugger;
+					console.log(post["photo-url-500"]);
+					var img = $('<img>').attr('src',post["photo-url-500"]);
+					container.append(img);
+				}
+			}
+		},"jsonp");
+	$('#latestCarousel').carousel();
 </script>
 
 </div>
