@@ -24,11 +24,24 @@ hr.brackets:after {
 }
 
 
-# headerBracket {
+#headerBracket {
   margin-top: 35px;
   margin-left: 50px;
   width: 70px;
   float: left;
+}
+
+.navbar-default {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.navbar-nav{
+  margin-left: 10%;
+  margin-top: 20px;
 }
 
 #map {
@@ -92,15 +105,4 @@ body {
   font-size: 1.4rem
 }
 
-.navbar-default {
-  background-color: white;
-  border: none;
-  font-size: 20px;
-  font-weight: bold;
-}
 
-
-.navbar-nav{
-  margin-left: 10%;
-  margin-top: 10px;
-}
