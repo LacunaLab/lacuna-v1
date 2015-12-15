@@ -1,0 +1,7 @@
+- name: Cyborgs e.V.
+  website: https://cyborgs.cc/
+  logo: openframeworks.svg
+
+- name: openframeworks
+  website: openframeworks.cc 
+  logo: cyborgs.png
