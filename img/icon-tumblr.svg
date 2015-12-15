@@ -1,11 +1,53 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<path id="Tumblr" d="M57.897,78.558c-1.513-0.888-2.902-2.416-3.456-3.889c-0.56-1.484-0.489-4.49-0.489-9.713V41.878H74.94V25.815
-	H53.953V5H41.04c-0.576,4.636-1.637,8.466-3.176,11.47c-1.542,3.008-3.576,5.578-6.126,7.726C29.2,26.34,25.064,27.992,21.5,29.132
-	v12.746h12.329V73.44c0,4.12,0.437,7.264,1.306,9.428c0.873,2.162,2.432,4.211,4.684,6.139c2.252,1.907,4.971,3.395,8.161,4.441
-	C51.166,94.483,53.616,95,57.766,95c3.65,0,7.049-0.368,10.2-1.088c3.147-0.738,6.661-2.009,10.534-3.812V75.901
-	c-4.545,2.964-9.116,4.44-13.713,4.44C62.2,80.342,59.913,79.747,57.897,78.558z"/>
-</svg>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Icons"
+   x="0px"
+   y="0px"
+   width="90"
+   height="90"
+   viewBox="0 0 90 90"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon-tumblr.svg"><metadata
+     id="metadata4340"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs4338" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="958"
+     inkscape:window-height="1059"
+     id="namedview4336"
+     showgrid="false"
+     inkscape:zoom="2.8584239"
+     inkscape:cx="52.80509"
+     inkscape:cy="50.618441"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Icons" /><g
+     id="g4251"><path
+       inkscape:connector-curvature="0"
+       id="Facebook__x28_alt_x29_"
+       d="M 90,15.001 C 90,7.119 82.884,0 75,0 L 15,0 C 7.116,0 0,7.119 0,15.001 L 0,74.999 C 0,82.881 7.116,90 15.001,90 35.000667,90 55.000333,90 75,90 82.884,90 90,82.881 90,74.999 Z"
+       sodipodi:nodetypes="sssssccss" /></g><path
+     id="Tumblr"
+     d="M 51.442942,68.299673 C 50.208527,67.57518 49.075281,66.328526 48.623288,65.126747 48.166399,63.915993 48.224326,61.463481 48.224326,57.202182 l 0,-18.828694 17.123522,0 0,-13.105353 -17.122706,0 0,-16.9823765 -10.535356,0 c -0.469942,3.7823835 -1.335582,6.9071735 -2.591209,9.3580525 -1.258074,2.454144 -2.917558,4.550934 -4.998033,6.303427 -2.070683,1.74923 -5.445129,3.097051 -8.352897,4.027145 l 0,10.399105 10.058886,0 0,25.750553 c 0,3.361392 0.356536,5.926494 1.065529,7.692042 0.712256,1.763915 1.984201,3.435637 3.821545,5.008638 1.837344,1.555868 4.055699,2.769885 6.658331,3.623287 2.599369,0.844427 4.598255,1.266233 7.984124,1.266233 2.977933,0 5.751082,-0.300241 8.321895,-0.887669 2.567549,-0.602114 5.434523,-1.639087 8.594396,-3.110104 l 0,-11.584567 c -3.708139,2.418245 -7.437489,3.622472 -11.188053,3.622472 -2.110662,8.16e-4 -3.976561,-0.484628 -5.621358,-1.4547 z"
+     style="fill:#ffffff"
+     inkscape:connector-curvature="0" /></svg>

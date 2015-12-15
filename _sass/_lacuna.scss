@@ -105,7 +105,15 @@ body {
   font-size: 1.4rem
 }
 
-
+.social-icons li {
+  width: 48px;
+  a {
+    padding: 0px;
+    img {
+      width: 60%;
+    }
+  }
+}
 .credit {
   text-align: center;
   font-size: 80%;

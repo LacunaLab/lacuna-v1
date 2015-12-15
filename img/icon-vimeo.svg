@@ -1,12 +1,53 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100px" height="100px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<path id="Vimeo" d="M81.844,11.017c-12.512-0.408-20.979,6.61-25.412,21.063c2.283-0.94,4.502-1.415,6.665-1.415
-	c4.563,0,6.583,2.561,6.043,7.696c-0.267,3.109-2.283,7.633-6.043,13.571c-3.774,5.947-6.593,8.916-8.466,8.916
-	c-2.432,0-4.645-4.595-6.666-13.773c-0.678-2.703-1.89-9.586-3.625-20.666c-1.627-10.262-5.926-15.057-12.916-14.383
-	c-2.957,0.271-7.387,2.979-13.299,8.104C13.812,24.048,9.442,27.967,5,31.882l4.232,5.464c4.039-2.838,6.402-4.25,7.058-4.25
-	c3.097,0,5.99,4.858,8.681,14.574c2.413,8.923,4.846,17.834,7.27,26.744C35.852,84.137,40.303,89,45.539,89
-	c8.469,0,18.838-7.965,31.066-23.9c11.83-15.256,17.938-27.276,18.35-36.062C95.498,17.296,91.128,11.283,81.844,11.017z"/>
-</svg>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Icons"
+   x="0px"
+   y="0px"
+   width="90"
+   height="90"
+   viewBox="0 0 90 90"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon-vimeo.svg"><metadata
+     id="metadata5621"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs5619" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="958"
+     inkscape:window-height="1059"
+     id="namedview5617"
+     showgrid="false"
+     inkscape:zoom="2.0212109"
+     inkscape:cx="31.199389"
+     inkscape:cy="50"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Icons" /><g
+     id="g4251"><path
+       inkscape:connector-curvature="0"
+       id="Facebook__x28_alt_x29_"
+       d="M 90,15.001 C 90,7.119 82.884,0 75,0 L 15,0 C 7.116,0 0,7.119 0,15.001 L 0,74.999 C 0,82.881 7.116,90 15.001,90 35.000667,90 55.000333,90 75,90 82.884,90 90,82.881 90,74.999 Z"
+       sodipodi:nodetypes="sssssccss" /></g><path
+     id="Vimeo"
+     d="m 68.330602,15.908254 c -9.750143,-0.31794 -16.348168,5.150931 -19.802643,16.413625 1.779058,-0.732507 3.508245,-1.102657 5.193791,-1.102657 3.555779,0 5.129892,1.995694 4.70909,5.997212 -0.208064,2.42273 -1.779059,5.948118 -4.70909,10.575384 -2.94094,4.63428 -5.137684,6.947913 -6.597244,6.947913 -1.895169,0 -3.619679,-3.580715 -5.19457,-10.732796 C 41.401595,41.900587 40.457128,36.536916 39.105105,27.902677 37.837244,19.905875 34.48719,16.169307 29.040138,16.69453 c -2.304282,0.21118 -5.756419,2.321426 -10.363425,6.315151 -3.360963,3.053155 -6.766344,6.107088 -10.2278325,9.157905 l 3.2978435,4.257896 c 3.147444,-2.211551 4.988844,-3.31187 5.500042,-3.31187 2.413378,0 4.667787,3.785662 6.764785,11.356986 1.880363,6.953368 3.776311,13.897384 5.665246,20.840622 2.81392,7.576779 6.282422,11.366337 10.362646,11.366337 6.599582,0 14.679764,-6.206834 24.208599,-18.624398 9.218686,-11.888443 13.978427,-21.25519 14.299484,-28.101798 0.42314,-9.150112 -2.982242,-13.835824 -10.216924,-14.043107 z"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" /></svg>
