@@ -103,7 +103,7 @@ hr {
 }
 
 body {
-  font-size: 1.4rem
+  font-size: 1.4rem;
 }
 
 .social-icons li {
@@ -115,12 +115,14 @@ body {
     }
   }
 }
+
 .credit {
   text-align: center;
   font-size: 80%;
 }
+
 .collab {
-  width: 40%;
+  width: 80%;
   max-height: 180px;
   margin-bottom: 40px;
 }

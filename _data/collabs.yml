@@ -3,7 +3,7 @@
   logo: openframeworks.svg
 
 - name: openframeworks
-  website: openframeworks.cc 
+  website: http://openframeworks.cc 
   logo: cyborgs.png
 
 - name: Create Code Berlin
@@ -11,7 +11,7 @@
   logo: creativeCodeBerlin.png
 
 - name: Science Hack Day Berlin
-  website: berlin.sciencehackday.org
+  website: http://berlin.sciencehackday.org
   logo: SHD.svg
 
 - name: School of Machines Make and Make-believe
