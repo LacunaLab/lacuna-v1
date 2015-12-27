@@ -1,14 +1,14 @@
 - name: Cyborgs e.V.
   website: https://cyborgs.cc/
-  logo: openframeworks.svg
+  logo: cyborgs.png
 
 - name: openframeworks
   website: http://openframeworks.cc 
-  logo: cyborgs.png
+  logo: of.svg  
 
 - name: Create Code Berlin
   website: https://twitter.com/creativecodebln
-  logo: creativeCodeBerlin.png
+  logo: cc.png
 
 - name: Science Hack Day Berlin
   website: http://berlin.sciencehackday.org
@@ -16,8 +16,8 @@
 
 - name: School of Machines Make and Make-believe
   website: http://schoolofma.org/
-  logo: schoolofma.png
+  logo: schoolofma.jpg
 
 - name: Machine to be Another
   website: http://www.themachinetobeanother.org/
-  logo: machineToBeAnother.png
+  logo: machinetobeanother.jpg

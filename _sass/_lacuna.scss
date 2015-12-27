@@ -7,6 +7,10 @@ hr {
     text-align: center;
 }
 
+h2 {
+  padding-bottom: 20px;
+}
+
 hr.brackets:after {
     white-space: pre;
     content: "[  ]";
@@ -23,11 +27,14 @@ hr.brackets:after {
   margin-top: 20px;
 }
 
+.active {
+  text-decoration: underline;
+}
 
 #headerBracket {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  margin-left: 200px;
   width: 70px;
   float: left;
 }
@@ -36,12 +43,12 @@ hr.brackets:after {
   background-color: white;
   border: none;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 
 .navbar-nav{
-  margin-left: 10%;
+  margin-left: 4%;
   margin-top: 20px;
 }
 
@@ -50,11 +57,11 @@ hr.brackets:after {
 }
 
 a.brackets:before {
-  content: "[ ";
+  //content: "[ ";
 }
 
 a.brackets:after {
-  content: " ]";
+  //content: " ]";
 }
 
 h1 {
@@ -68,7 +75,7 @@ h1 {
   margin-top: 12%;
 }
 
-/* 
+/*
 phrase blinks at the end, cuz its overflowing and the last word
 is in the 2nd line.
 */
@@ -85,7 +92,7 @@ hr {
 }
 
 .member {
-  padding-bottom: 12px;  
+  padding-bottom: 12px;
 }
 
 #mapContainer {
@@ -104,6 +111,13 @@ hr {
 
 body {
   font-size: 1.4rem;
+}
+
+.jumpoffset:before {
+  content:"";
+  display:block;
+  height:100px; /* fixed header height*/
+  margin:-100px 0 0; /* negative fixed header height */
 }
 
 .social-icons li {
@@ -126,4 +140,3 @@ body {
   max-height: 180px;
   margin-bottom: 40px;
 }
-
