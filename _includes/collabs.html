@@ -1,17 +1,17 @@
 <div class="container">
     <h2>Collabs</h2>
-    
+
     <ul class="row list-unstyled">
-        
+
         {% for collab in site.data.collabs %}
-        
-        <li class="col-sm-4 col-md-3">
+
+        <li class="col-sm-4 col-md-2">
             <a target="_blank" href="{{ collab.website }}">
             	<img src="img/collabs/{{ collab.logo }}" class="collab">  </img>
             </a>
         </li>
-        
+
         {% endfor %}
-    
+
     </ul>
 </div>
