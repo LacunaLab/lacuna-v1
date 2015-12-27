@@ -50,11 +50,11 @@ hr.brackets:after {
 }
 
 a.brackets:before {
-  content: "[ ";
+  //content: "[ ";
 }
 
 a.brackets:after {
-  content: " ]";
+  //content: " ]";
 }
 
 h1 {
@@ -120,8 +120,6 @@ body {
   font-size: 80%;
 }
 .collab {
-  width: 100px;
-  padding-right: 0px;
-  margin-right: 0px;
+  width: 150px;
   margin-bottom: 40px;
 }
