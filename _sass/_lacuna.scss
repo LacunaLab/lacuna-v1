@@ -34,7 +34,7 @@ hr.brackets:after {
 #headerBracket {
   margin-top: 20px;
   margin-bottom: 10px;
-  margin-left: 200px;
+  margin-left: 50px;
   width: 70px;
   float: left;
 }
@@ -53,7 +53,11 @@ hr.brackets:after {
 }
 
 #map {
+    position: absolute;
     height: 435px;
+    width: 96%;
+    height: 500px;
+    left: 2%;
 }
 
 a.brackets:before {
@@ -97,9 +101,9 @@ hr {
 
 #addressBox {
   position:absolute;
-  width: 14%;
+  width: 250px;
   height: 25%;
-  margin-left:10%;
+  margin-left:6%;
   margin-top: 5%;
 }
 
@@ -114,6 +118,10 @@ address {
 
 body {
   font-size: 1.4rem;
+}
+
+#collabs {
+  margin-top: 400px;
 }
 
 .social-icons li {
@@ -135,4 +143,14 @@ body {
   width: 80%;
   max-height: 180px;
   margin-bottom: 40px;
+}
+
+.div-scroll
+{
+  width:100%;
+  overflow-x:scroll;
+}
+
+.memberentry {
+  padding-bottom:25px;
 }
