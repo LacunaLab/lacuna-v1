@@ -95,18 +95,21 @@ hr {
   padding-bottom: 12px;
 }
 
-#mapContainer {
+#addressBox {
   position:absolute;
-  width: 100%;
-  height: 100%;
+  width: 18%;
+  height: 25%;
+  margin-left:10%;
+  margin-top: 5%;
 }
 
-#addressBox {
-  position: absolute;
-  background-color: white;
-  top: 6%;
-  left: 8%;
+address {
+  top: 8%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
   padding: 20px;
+  background-color:rgba(255, 255, 255, 0.95);
 }
 
 body {
