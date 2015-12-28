@@ -53,7 +53,11 @@ hr.brackets:after {
 }
 
 #map {
+    position: absolute;
     height: 435px;
+    width: 96%;
+    height: 500px;
+    left: 2%;
 }
 
 a.brackets:before {
