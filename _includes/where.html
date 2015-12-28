@@ -45,5 +45,13 @@ var map = new google.maps.Map(element, {
         mapTypeIds: [layer]
     }
 });
+
 map.mapTypes.set(layer, new google.maps.StamenMapType(layer));
+
+var ltlng = {lat: 52.49691, lng: 13.42122};
+var marker = new google.maps.Marker({
+    position: ltlng,
+    map: map,
+    title: 'Hello World!'
+  });
 </script>
