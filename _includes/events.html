@@ -6,13 +6,27 @@
          <div class="col-md-5">
            <div class="panel panel-default">
                <div class="panel-heading">
-                   <h2 class="panel-title">{{ event.date | date: '%B' }}</h2>
-                   <h2 class="panel-title">{{ event.date | date: '%d' }}</h2>
+                   <p class="event_month">{% assign m = event.date | date: "%B" %}
+{% case m %}
+  {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
+  {% when 'September' %}Sept
+  {% else %}{{ event.date | date: "%b" }}
+  {% endcase %}</h2>
+                   <p class="event_day">
+                     {% assign d = event.date | date: "%-d"  %}
+                      {% case d %}
+                        {% when '1' or '21' or '31' %}{{ d }}st
+                        {% when '2' or '22' %}{{ d }}nd
+                        {% when '3' or '23' %}{{ d }}rd
+                        {% else %}{{ d }}th
+                        {% endcase %}
+  </p>
                    <p class="event_time">{{ event.time }}</p>
                    <img src="img/events/{{ event.image }}" class="event_image" />
-                   <p class="event_title">{{event.title}}</p>
-                   <p>-----------</p>
+                   <p class="event_title">{{event.name}}</p>
+                   <hr class="event_line">
                    <p class="event_location">{{event.location}}</p>
+                   <p class="event_location_city">[ {{event.location-city}} ]</p>
                    <p class="event_description">{{event.description}}</p>
                </div>
            </div>
