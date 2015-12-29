@@ -16,7 +16,7 @@
 - name: Laser Cutting Workshop
   date: 2015-11-27
   time: 1pm
-  image: event.gif
+  image: event.png
   location: Lacuna Lab
   location-city: Berlin
   description: >
@@ -26,7 +26,7 @@
 - name: The Weight of Words
   date: 2015-11-25
   time: 1pm
-  image: event.gif
+  image: event.png
   location: Lacuna Lab
   location-city: Berlin
   description: >
@@ -37,7 +37,7 @@
 - name: Other Lovely Event
   date: 2015-01-12
   time: 7pm
-  image: event.gif
+  image: event.png
   location: Cool Venue
   location-city: Cool City
   description: Something awesome probably.
@@ -45,7 +45,7 @@
 - name: Lumière II
   date: 2015-11-25
   time: 7pm
-  image: event.gif
+  image: event.png
   location: Volksbühne
   location-city: Berlin
   description: >
