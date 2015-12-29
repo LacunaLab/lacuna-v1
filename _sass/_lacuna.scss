@@ -32,11 +32,12 @@ hr.brackets:after {
 }
 
 #headerBracket {
-  margin-top: 20px;
+  margin-top: 34px;
   margin-bottom: 10px;
   margin-left: 50px;
   width: 70px;
   float: left;
+  fill: grey;
 }
 
 .navbar-default {
@@ -46,15 +47,39 @@ hr.brackets:after {
   font-weight: normal;
 }
 
+.navbar-nav{
+  margin-left: 4%;
+  margin-top: 20px;
+}
+
+.social-icons {
+  margin-top: 36px;  
+  position: relative;
+  right: -260px;
+}
+
+.language {
+  margin-top: 32px;
+  position: relative;
+  right: 80px;
+}
+
+.social-icons li {
+  width: 48px;
+  a {
+    padding: 0px;
+    img {
+      width: 60%;
+    }
+  }
+}
+
 .social-media-link {
   transform: scale(0.9,0.9);
 }
 
-
-.navbar-nav{
-  margin-left: 4%;
-  margin-top: 20px;
-  margin-right: 10%;
+.language-element {
+  margin-left: 10px;
 }
 
 #map {
@@ -129,15 +154,7 @@ body {
   margin-top: 400px;
 }
 
-.social-icons li {
-  width: 48px;
-  a {
-    padding: 0px;
-    img {
-      width: 60%;
-    }
-  }
-}
+
 
 .credit {
   text-align: center;
