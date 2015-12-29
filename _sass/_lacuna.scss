@@ -46,10 +46,15 @@ hr.brackets:after {
   font-weight: normal;
 }
 
+.social-media-link {
+  transform: scale(0.9,0.9);
+}
+
 
 .navbar-nav{
   margin-left: 4%;
   margin-top: 20px;
+  margin-right: 10%;
 }
 
 #map {
