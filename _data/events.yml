@@ -3,11 +3,10 @@
 - name: Lacuna Lab Public Activation Exhibition
   date: 2016-04-22
   time: 20:00 - 23:00
-  location: > 
-    Spektrum
-    Bürknerstraße 12
-    12047 Berlin
-  description: > 
+  image: event.png
+  location: Spektrum
+  location-city: Berlin
+  description: >
     Lacuna Lab announces itself to the world with its first public exhibition.
     Come witness the epic feats of cross-disciplinary collaboration!
     Marvel at the genius use and misuse of technology as a means for social intervention!
@@ -17,15 +16,20 @@
 - name: Laser Cutting Workshop
   date: 2015-11-27
   time: 13:00 - 19:00
+  image: event.gif
   location: Lacuna Lab
-  description: > 
+  location-city: Berlin
+  description: >
     Marcel's been Frankenstein-ing up a laser cutter for Lacuna.  Come learn how to use it!
 
 
 - name: The Weight of Words
   date: 2015-11-25
+  time: 13:00 - 19:00
+  image: event.gif
   location: Lacuna Lab
-  description: > 
+  location-city: Berlin
+  description: >
     The Weight of Words is a performance-installation that exists at the meeting point of written
     text and moving body.  The piece takes place between a dancer, a visual artist, and a poet
     together in a room.
@@ -33,15 +37,17 @@
 - name: Other Lovely Event
   date: 2015-12-25
   time: 19:00 - 19:02
+  image: event.gif
   location: Cool Venue
+  location-city: Cool City
   description: Something awesome probably.
 
 - name: Lumière II
   date: 2015-11-25
   time: 19:00 - 23:00
-  location: > 
-    Volksbühne
-    Rosa-Luxemburg-Platz
-  description: > 
+  image: event.gif
+  location: Volksbühne
+  location-city: Berlin
+  description: >
     We don't have anything to do with this event, but it should be cool.  Also the name and location
     test display of special characters, so that's nice.
