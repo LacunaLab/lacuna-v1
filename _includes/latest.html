@@ -54,11 +54,12 @@
 					//debugger;
 					console.log(post["photo-url-500"]);
 					var img = $('<img>').attr('src',post["photo-url-500"]);
+          img.attr("height","500px");
 					container.append(img);
 				}
 			}
 		},"jsonp");
-	$('#latestCarousel').carousel();
+	//$('.carousel').carousel();
 </script>
 
 </div>
