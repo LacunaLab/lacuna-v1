@@ -35,13 +35,22 @@ hr.brackets:after {
   text-decoration: underline;
 }
 
+
 #headerBracket {
+  width: 70px;
+  height: 90px;
   margin-top: 34px;
   margin-bottom: 10px;
   margin-left: 50px;
-  width: 70px;
   float: left;
-  fill: grey;
+  position:relative;
+}
+
+#headerBracket img {
+  position:absolute;
+  left:0;
+  width: 70px;
+  transition: opacity 5s ease-in-out;
 }
 
 .navbar-default {
