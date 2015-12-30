@@ -51,23 +51,23 @@
 			for(var i = 0; i < posts.length; i++){
 				var post = data.posts[i];
 				var container = latestContainer.eq(i);
-				//console.log(container);
 				var postType = post.type;
         //console.log(post);
-				//console.log(postType);
 				if(postType == "video") {
 					container.append(post["video-source"]);
 				} else if(postType == "photo") {
-					//debugger;
-					console.log(post["photo-url-500"]);
 					var img = $('<img>').attr('src',post["photo-url-500"]);
           img.attr("height","500px");
 					container.append(img);
+          var caption = $('<div>').addClass("latest-item-caption");
+          caption.append(post["photo-caption"]);
+          //console.log(post["caption"]);
+          container.append(caption);
 				}
 			}
 		},"jsonp");
     $('.carousel').carousel({
-      interval: 60000
+      interval: 10000
     });
 </script>
 
