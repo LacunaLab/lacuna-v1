@@ -53,14 +53,10 @@
 				var container = latestContainer.eq(i);
 				//console.log(container);
 				var postType = post.type;
-        console.log(post);
-				console.log(postType);
+        //console.log(post);
+				//console.log(postType);
 				if(postType == "video") {
-          var video = $('<div>')
-          .css("margin","auto")
-          .addClass("latest-video")
-          .html(post["video-source"]);
-					container.append(video);
+					container.append(post["video-source"]);
 				} else if(postType == "photo") {
 					//debugger;
 					console.log(post["photo-url-500"]);
