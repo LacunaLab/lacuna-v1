@@ -49,14 +49,14 @@ layout: default
 		// the + 400 is a little magic. the lower it is, the lower
 		// the section start can be in order to start
 		// but for low values you click on #members and it marks #where !?!
-		var yThreshold = - window.innerHeight + 400;
+		var yThreshold = - 200;
 
 		var s = 0;
 		// find the section
 		for(; s < sectionIds.length - 1;) {	
 			var nextToCheck = s + 1;
 			var yOffset = (yScroll - $(sectionIds[nextToCheck]).offset().top) | 0;
-
+			//console.log(nextToCheck + " "+sectionIds[nextToCheck] +": "+yOffset);
 			if(yOffset > yThreshold) {
 				s++;
 			} else {

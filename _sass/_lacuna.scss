@@ -139,6 +139,30 @@ is in the 2nd line.
 }
 
 
+.latestContainer {
+  min-height: 500px;
+}
+
+.carousel-control.right , .carousel-control.left{
+  background: 0; 
+}
+
+.carousel-inner > .item > *, .carousel-inner > .item > a > *,
+.carousel-inner > .item > *, .carousel-inner > .item > a > *, .playerCanvas{
+  margin: auto;
+}
+
+.latestContainer > iframe{
+  display:block;
+  margin: auto;
+}
+
+
+.latest-item-caption {
+  width: 40%;
+  margin-top: 40px !important;
+}
+
 hr {
   width: 90%;
 }
@@ -149,8 +173,7 @@ hr {
 
 #addressBox {
   position:absolute;
-  width: 250px;
-  height: 25%;
+  left: 100px;
   margin-left:6%;
   margin-top: 5%;
 }
@@ -163,13 +186,9 @@ hr {
   background-color:rgba(255, 255, 255, 0.95);
 }
 
-
-
 #collabs {
   margin-top: 400px;
 }
-
-
 
 .credit {
   text-align: center;
