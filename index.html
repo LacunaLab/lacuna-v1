@@ -36,6 +36,41 @@ layout: default
             easeing: "ease-out"
         }, "slow");
     });
+
+    // this highlights the actual section
+	var sectionIds = ["#about","#latest","#events","#members","#where"];
+    var linksToElem = [
+    $("a[linkTo='about']")[0],$("a[linkTo='latest']")[0],
+    $("a[linkTo='events']")[0],$("a[linkTo='members']")[0],
+    $("a[linkTo='where']")[0]];
+
+	$("body").mousemove(function(evt){
+		var yScroll = $(document).scrollTop();
+		// the + 400 is a little magic. the lower it is, the lower
+		// the section start can be in order to start
+		// but for low values you click on #members and it marks #where !?!
+		var yThreshold = - window.innerHeight + 400;
+
+		var s=0;
+		// find the section
+		for(; s < sectionIds.length - 1;) {	
+			var nextToCheck = s + 1;
+			var yOffset = (yScroll - $(sectionIds[nextToCheck]).offset().top) | 0;
+			if(yOffset > yThreshold) {
+				s++;
+			} else {
+				break;
+			}
+		}
+		// mark the section in the navbar
+		for(var e = 0; e < sectionIds.length;e++) {
+			if(e == s) {
+				linksToElem[e].className = "active navbar-link";
+			} else {
+				linksToElem[e].className = "navbar-link";
+			}
+		}
+	});
 </script>
 
 <!--
