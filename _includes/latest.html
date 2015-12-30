@@ -1,4 +1,4 @@
-<div class="container" >
+<div class="container">
     <h2>Latest Stuff</h2>
 
 <div id="latestCarousel" class="carousel slide" data-ride="carousel">
@@ -36,8 +36,14 @@
   </a>
 </div>
 
+<div id="carousel-item-info">
+
+
+</div>
+
 <script type="text/javascript">
-	$.get("http://lacunalab.tumblr.com/api/read/json?num=5",
+  var numberOfPosts = 5;
+	$.get("http://lacunalab.tumblr.com/api/read/json?num="+numberOfPosts,
 		function(data){
 			//console.log(data);
 			var posts = data.posts;
@@ -47,9 +53,14 @@
 				var container = latestContainer.eq(i);
 				//console.log(container);
 				var postType = post.type;
+        console.log(post);
 				console.log(postType);
 				if(postType == "video") {
-					container.append(post["video-source"]);
+          var video = $('<div>')
+          .css("margin","auto")
+          .addClass("latest-video")
+          .html(post["video-source"]);
+					container.append(video);
 				} else if(postType == "photo") {
 					//debugger;
 					console.log(post["photo-url-500"]);
@@ -59,7 +70,9 @@
 				}
 			}
 		},"jsonp");
-	//$('.carousel').carousel();
+    $('.carousel').carousel({
+      interval: 60000
+    });
 </script>
 
 </div>
