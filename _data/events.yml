@@ -3,7 +3,7 @@
 - name: Lacuna Lab Public Activation Exhibition
   date: 2016-04-22
   time: 8pm
-  image: event.png
+  image: 20160410_spektrum_exhibition.jpg
   location: Spektrum
   location-city: Berlin
   description: >
@@ -13,10 +13,19 @@
     Shake hands with the great guys and gals behind it all!
     Wish you were as cool as they are!
 
+- name: New Years Celebration
+  date: 2015-12-31
+  time: 8pm
+  image: 20151231_nye.jpg
+  location: Lacuna Lab Headquarters
+  location-city: Berlin
+  description: >
+    There's a celebration for new years eve in our warm etablissement. Drinks, Music and fingernail-engravings! BYOB, too!
+
 - name: Laser Cutting Workshop
   date: 2015-11-27
   time: 1pm
-  image: event.png
+  image: 20151127_laser_workshop.png
   location: Lacuna Lab
   location-city: Berlin
   description: >
@@ -26,7 +35,7 @@
 - name: The Weight of Words
   date: 2015-11-25
   time: 1pm
-  image: event.png
+  image: 20151125_weight_of_words.jpg
   location: Lacuna Lab
   location-city: Berlin
   description: >
@@ -34,18 +43,10 @@
     text and moving body.  The piece takes place between a dancer, a visual artist, and a poet
     together in a room.
 
-- name: Other Lovely Event
-  date: 2015-01-12
-  time: 7pm
-  image: event.png
-  location: Cool Venue
-  location-city: Cool City
-  description: Something awesome probably.
-
 - name: Lumière II
-  date: 2015-11-25
+  date: 2015-11-12
   time: 7pm
-  image: event.png
+  image: 20151112_robert_henke_lumiere2.jpg
   location: Volksbühne
   location-city: Berlin
   description: >
