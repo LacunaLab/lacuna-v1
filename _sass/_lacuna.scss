@@ -123,8 +123,13 @@ h1 {
 #logo {
   width: 28%;
   margin-left: auto;
-  margin-bottom: 12%;
-  margin-top: 12%;
+  margin-bottom: 8%;
+  margin-top: 10%;
+}
+
+.about_text {
+  width:50%;
+  margin-left: 26%;
 }
 
 /*
@@ -136,6 +141,10 @@ is in the 2nd line.
   height: 1em; // that's one line, 2em for 2 lines, etc...
   line-height: 1em; // the height of one text line
   overflow: hidden;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 26%;
+  margin-bottom: 30px;
 }
 
 
