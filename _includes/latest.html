@@ -42,7 +42,7 @@
 </div>
 
 <script type="text/javascript">
-  var numberOfPosts = 5;
+  var numberOfPosts = 10;
 	$.get("http://lacunalab.tumblr.com/api/read/json?num="+numberOfPosts,
 		function(data){
 			//console.log(data);
@@ -61,7 +61,7 @@
 					container.append(img);
           var caption = $('<div>').addClass("latest-item-caption");
           caption.append(post["photo-caption"]);
-          //console.log(post["caption"]);
+          console.log(post["caption"]);
           container.append(caption);
 				}
 			}

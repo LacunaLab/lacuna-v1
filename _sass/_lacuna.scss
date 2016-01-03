@@ -147,31 +147,6 @@ is in the 2nd line.
   margin-bottom: 30px;
 }
 
-
-.latestContainer {
-  min-height: 500px;
-}
-
-.carousel-control.right , .carousel-control.left{
-  background: 0; 
-}
-
-.carousel-inner > .item > *, .carousel-inner > .item > a > *,
-.carousel-inner > .item > *, .carousel-inner > .item > a > *, .playerCanvas{
-  margin: auto;
-}
-
-.latestContainer > iframe{
-  display:block;
-  margin: auto;
-}
-
-
-.latest-item-caption {
-  width: 40%;
-  margin-top: 40px !important;
-}
-
 hr {
   width: 90%;
 }
