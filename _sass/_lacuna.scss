@@ -64,8 +64,11 @@ hr.brackets:after {
 .navbar-link {
   cursor: pointer;
 }
+.navbar-link[linkTo='about'] {
+    opacity: 0;
+}
 
-.navbar-nav{
+.navbar-nav {
   margin-left: 4%;
   margin-top: 20px;
 }
