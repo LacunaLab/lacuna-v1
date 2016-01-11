@@ -35,6 +35,7 @@
 var element = document.getElementById("map");
 var layer = "toner"
 var map = new google.maps.Map(element, {
+    scrollwheel: false,
     center: new google.maps.LatLng(52.49691, 13.42122),
     zoom: 16,
     mapTypeId: layer,
