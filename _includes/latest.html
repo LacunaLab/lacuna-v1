@@ -56,9 +56,8 @@
 				if(postType == "video") {
 					container.append(post["video-source"]);
 				} else if(postType == "photo") {
-					var img = $('<img>').attr('src',post["photo-url-500"]);
-          img.attr("height","500px");
-					container.append(img);
+          var div = $('<div class="imgContainer" style="background-image: url(' + post['photo-url-500']+ ');">');
+					container.append(div);
           var caption = $('<div>').addClass("latest-item-caption");
           caption.append(post["photo-caption"]);
           console.log(post["caption"]);

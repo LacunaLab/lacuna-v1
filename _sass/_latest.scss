@@ -16,6 +16,14 @@
   margin: auto;
 }
 
+.latestContainer .imgContainer {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 640px;
+  height: 360px;
+}
 
 .latest-item-caption {
   width: 40%;
