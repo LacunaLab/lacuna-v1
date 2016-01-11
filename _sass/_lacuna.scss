@@ -195,3 +195,20 @@ hr {
 .memberentry {
   padding-bottom:25px;
 }
+
+.carousel-inner > .item > * {
+  margin: initial !important;
+}
+.carousel-control.right {
+  right: 300px !important;
+}
+.carousel-control.left {
+  left: -200px !important;
+}
+.latest-item-caption {
+  width: 640px;
+  br {
+    content: " ";
+    display: none;
+  }
+}
