@@ -110,6 +110,10 @@ hr.brackets:after {
     width: 96%;
     height: 500px;
     left: 2%;
+    
+    & .leaflet-control-attribution, & .leaflet-control-attribution a, & .leaflet-control-attribution a:hover, & .leaflet-control-attribution a:visited {
+      color: rgb(51, 51, 51);
+    }
 }
 
 a.brackets:before {
