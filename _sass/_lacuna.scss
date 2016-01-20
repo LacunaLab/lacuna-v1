@@ -203,6 +203,12 @@ hr {
   padding-bottom:25px;
 }
 
+// temporarily fixing the height of this section as it's annoying to work on sections below it. 
+[data-highlight-menu="latest"] {
+  height: 800px
+}
+
+
 .carousel-inner > .item > * {
   margin: initial !important;
 }
