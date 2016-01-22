@@ -1,3 +1,11 @@
+
+// limits the viewport to a max width
+@media (min-width: 1200px) {
+  .container {
+    width: 940px;
+  }
+}
+
 body {
   font-size: 2.2rem;
 }
@@ -104,14 +112,6 @@ hr.brackets:after {
   margin-left: 10px;
 }
 
-#map {
-    position: absolute;
-    height: 435px;
-    width: 96%;
-    height: 500px;
-    left: 2%;
-}
-
 a.brackets:before {
   //content: "[ ";
 }
@@ -159,19 +159,37 @@ hr {
   padding-bottom: 30px;
 }
 
-#addressBox {
-  position:absolute;
-  left: 100px;
-  margin-left:6%;
-  margin-top: 5%;
-}
-
-#address {
-  top: 8%;
-  left: 5%;
-  width: 100%;
-  padding: 20px;
-  background-color:rgba(255, 255, 255, 0.95);
+[data-highlight-menu="where"] {
+  & .row {
+    
+    & #mapWrapper {
+      position: relative;
+      clear: both;
+      height: 435px;
+      
+      & #map {
+          clear: left;
+          position: absolute;
+          // height: 435px;
+          // width: 96%;
+          // left: 2%;
+          height: 100%;
+          
+          & .leaflet-control-attribution, & .leaflet-control-attribution a, & .leaflet-control-attribution a:hover, & .leaflet-control-attribution a:visited {
+            color: rgb(51, 51, 51);
+          }
+      }
+      
+      & #address {
+        position: relative;
+        top: 50%;
+        transform: translate(0,-50%);
+        
+        padding: 20px;
+        background-color: white;
+      }
+    }
+  }
 }
 
 #collabs {
@@ -198,6 +216,12 @@ hr {
 .memberentry {
   padding-bottom:25px;
 }
+
+// temporarily fixing the height of this section as it's annoying to work on sections below it. 
+[data-highlight-menu="latest"] {
+  height: 800px
+}
+
 
 .carousel-inner > .item > * {
   margin: initial !important;

@@ -1,56 +1,66 @@
 <div class="container highlight" data-highlight-menu="where">
-    <h2>Where To Find Us</h2>
-    <div class="row">
-        <div class="col-md-12" id="map"></div>
-            <div id="addressBox">
-                <div id="address">
-                    <p>
-                    <strong>Lacuna Lab</strong><br>
-                      <i>
-                        Paul-Lincke-Ufer 44A </br>
-                        2.HH 1.OG <br/>
-                        10999 Berlin
-                      </i>
-                    </p>
-                    <p><strong>Phone</strong></br>
-                      <i>
-                        +49(0)30 69597111
-                      </i>
-                    </p>
-                    <p><strong>Email</strong></br>
-                      <i>
-                        info@lacuna.org
-                      </i>
-                    </p>
-                </div>
-            </div>
+  <div class="row">
+    <h2 class="col-xs-10 col-xs-push-2">Where To Find Us</h2>
+    <div id="mapWrapper">
+      <div id="map" class="col-xs-12"></div>
+      <div id="address" class="col-xs-3 col-xs-push-2">
+        <p>
+          <strong>Lacuna Lab</strong><br>
+          <i>
+            Paul-Lincke-Ufer 44A </br>
+            2.HH 1.OG <br/>
+            10999 Berlin
+          </i>
+        </p>
+        <p>
+          <strong>Phone</strong></br>
+          <i>
+            +49(0)30 69597111
+          </i>
+        </p>
+        <p>
+          <strong>Email</strong></br>
+          <i>
+            info@lacuna.org
+          </i>
+        </p>
+      </div>
     </div>
+  </div>
 </div>
 
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
-
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+ 
 <script type="text/javascript">
-//Google maps API initialisation
-var element = document.getElementById("map");
-var layer = "toner"
-var map = new google.maps.Map(element, {
-    scrollwheel: false,
-    center: new google.maps.LatLng(52.49691, 13.42122),
-    zoom: 16,
-    mapTypeId: layer,
-    mapTypeControlOptions: {
-        mapTypeIds: [layer]
-    }
+	var map = L.map('map').setView([52.496721268508615, 13.417986631393433], 16);
+
+	var tileLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+	    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+	    maxZoom: 18,
+	    id: 'lacunalab.8qugh53v',
+	    accessToken: "pk.eyJ1IjoibGFjdW5hbGFiIiwiYSI6ImNpamVsOWd3MjAwMDJ1c2trd21rOXN0OG4ifQ.B3D316k8_UZRza98YZB3xQ"
+	}).addTo(map);
+  map.scrollWheelZoom.disable();
+  
+  var myMarker = L.icon({
+    iconUrl: 'img/map-marker.svg',
+    iconSize: [32, 48],
+    iconAnchor: [17, 47],
+    // popupAnchor: [-3, -76],
+    shadowUrl: 'http://cdn.leafletjs.com/leaflet/v0.7.7/images/marker-shadow.png',
+    shadowSize: [57, 57],
+    shadowAnchor: [22, 56]
 });
-
-map.mapTypes.set(layer, new google.maps.StamenMapType(layer));
-
-var ltlng = {lat: 52.49691, lng: 13.42122};
-var marker = new google.maps.Marker({
-    position: ltlng,
-    map: map,
-    title: 'LAC!',
-    icon: "/img/logo_48.jpg"
+  
+  L.marker([52.49691, 13.42122], { 
+      icon: myMarker,
+      // title: 'LAC!',
+      alt: 'LAC!'
+  }).addTo(map);
+  
+  
+  map.on('moveend', function() {
+    console.log(map.getCenter());
   });
+
 </script>
