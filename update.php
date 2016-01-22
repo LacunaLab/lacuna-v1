@@ -1,1 +1,4 @@
-<?php passthru("cd ../dev/lacunalab-website/ && git pull && jekyll build --destination ../../html/");
+<?php 
+
+  $fp = fopen('commithook', 'w');
+  fclose($fp);
