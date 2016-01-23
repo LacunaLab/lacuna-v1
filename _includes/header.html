@@ -1,41 +1,35 @@
-<header class="navbar-header clearfix">
+<header class="container navbar-fixed-top ">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-
-            <div class="navbar-header clearfix"></div>
-
-            <!-- TODO: this is a hacky placeholder.  It should use a dynamic diev with background image. -->
-            <div id="headerBracket">
-                    <img  id="headerBracket-landing" 
-                    src="{{ "/img/brackets-grey.svg" | prepend: site.baseurl }}" 
-                    alt="Lacuna Lab logo"/>
-                    <a linkTo="about" class="navbar-link">
-                        <img id="headerBracket-scroll" 
-                        src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
-                        alt="Lacuna Lab logo"/>
-                    </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a linkTo="latest"  class="navbar-link active">LATEST</a></li>
-                    <li><a linkTo="events"  class="navbar-link">EVENTS</a></li>
-                    <li><a linkTo="members" class="navbar-link">MEMBERS</a></li>
-                    <li><a linkTo="where"   class="navbar-link">FIND US</a></li>
-                </ul>
-                <ul class="nav navbar-nav social-icons">
-                  <li><a href="https://vimeo.com/lacunalab" target="_blank"><i class="fa fa-vimeo-square fa-2x social-media-link"></i></a></li>
-                  <li><a href="https://twitter.com/lacunalab" target="_blank"><i class="fa fa-twitter-square fa-2x social-media-link"></i></a></li>
-                  <li><a href="https://facebook.com/lacunalab" target="_blank"><i class="fa fa-facebook-square fa-2x social-media-link"></i></a></li>
-                  <li><a href="https://lacunalab.tumblr.com" target="_blank"><i class="fa fa-tumblr-square fa-2x social-media-link"></i></a></li>
-                </ul>
-                <ul class="nav navbar-nav language">
-                  <li class="language-element">EN</li>
-                  <li class="language-element">DE</li>
-                </ul>
-            </div>
-
-        </div>
+  <div class="row">
+    <!-- TODO: this is a hacky placeholder.  It should use a dynamic diev with background image. -->
+    <div id="headerBracket" class="col-xs-1">
+      <div class="logoWrapper">
+        <img  id="headerBracket-landing" 
+        src="{{ "/img/brackets-grey.svg" | prepend: site.baseurl }}" 
+        alt="Lacuna Lab logo"/>
+        <a linkTo="about" class="navbar-link">
+            <img id="headerBracket-scroll" 
+            src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
+            alt="Lacuna Lab logo"/>
+        </a>
+      </div>
+    </div>
+    <nav id="mainNavigation" class="col-sm-7 col-md-push-1">
+        <a linkTo="latest"  class="navbar-link active">LATEST</a>
+        <a linkTo="events"  class="navbar-link">EVENTS</a>
+        <a linkTo="members" class="navbar-link">MEMBERS</a>
+        <a linkTo="where"   class="navbar-link">FIND US</a>
     </nav>
-
+    <nav id="social-icons" class="col-sm-2 col-md-push-1">
+        <a href="https://vimeo.com/lacunalab" target="_blank" class="fa fa-vimeo-square fa-2x social-media-link"></a>
+        <a href="https://twitter.com/lacunalab" target="_blank" class="fa fa-twitter-square fa-2x social-media-link"></a>
+        <a href="https://facebook.com/lacunalab" target="_blank" class="fa fa-facebook-square fa-2x social-media-link"></a>
+        <a href="https://lacunalab.tumblr.com" target="_blank" class="fa fa-tumblr-square fa-2x social-media-link"></a>
+    </nav>
+    <nav id="languages" class="col-sm-1 col-md-push-1">
+      <a class="language-element">EN</a>
+      <a class="language-element">DE</a>
+    </nav>
+  </div>
+  
 </header>
