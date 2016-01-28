@@ -106,7 +106,7 @@ hr.brackets:after {
     
     & > li:first-child a {
       // not phones
-      @media (min-width: $screen-sm-max) {
+      @media (min-width: $screen-xs-max) {
         padding-left: 0;
       }
     }
