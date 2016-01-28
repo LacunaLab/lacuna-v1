@@ -10,6 +10,17 @@
   position: relative;
 }
 
+.columnPaddings {
+  padding: 0 ($grid-gutter-width / 2);
+}
+
+@media (max-width: $screen-xs-max) {
+  .hide-phone {
+    display: none !important;
+  }
+}
+
+
 body {
   font-size: 2.2rem;
 }
@@ -49,18 +60,23 @@ hr.brackets:after {
 }
 
 #header {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  background-color: yellow;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
   border: none;
   
   
   &.navbar {
-    // height: 100px;
     
     & .navbar-brand {
-      // max-width: 70px;
+      height: auto;
       padding-top: 0;
+
+      // not phones
+      @media (min-width: $screen-sm-max) {
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
       
       // phone and tablet
       @media (min-width: $screen-md-min) {
@@ -97,6 +113,8 @@ hr.brackets:after {
     
     &.navbar-nav > li > a {
       padding-top: 0;
+      padding-right: 14px;
+      text-align: center;
     }
     
     // & > *:not(:first-child) { //> *
@@ -110,21 +128,15 @@ hr.brackets:after {
     top: 0;
         
     & #social-icons {
-      // position: relative;
-      // right: -500px;
       font-size: 9px;
       text-align: right;
       margin-top: 3px;
+      margin-right: 33px;
       float:left;
       
       & a {
         margin-right: 6px;
         text-decoration: none;
-        // padding: 0px;
-        // & img {
-        //   width: 60%;
-        // }
-      
       }
     }
     
