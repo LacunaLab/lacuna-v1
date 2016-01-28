@@ -6,6 +6,10 @@
   }
 }
 
+.relative {
+  position: relative;
+}
+
 body {
   font-size: 2.2rem;
 }
@@ -46,68 +50,128 @@ hr.brackets:after {
 
 #header {
   padding-top: 16px;
-  background-color: white;
+  padding-bottom: 16px;
+  background-color: yellow;
+  border: none;
   
-  & #headerBracket {
-    // position: relative;
+  
+  &.navbar {
+    // height: 100px;
     
-    & .logoWrapper {
-      position: relative;
+    & .navbar-brand {
+      // max-width: 70px;
+      padding-top: 0;
       
-      & *[linkTo='about'] {
-        width: 100%;
-        opacity: 0;
-      
-        & img {
-          position: absolute;;
-          top:0;
-        }
+      // phone and tablet
+      @media (min-width: $screen-md-min) {
+          padding-right: 0;
       }
-          
-      & img {
+      
+      & > img {
         width: 100%;
-        transition: opacity 5s ease-in-out;
+      
+        //only desktop
+        @media (max-width: $screen-md-min) {
+            width: 50px;
+        }
+
       }
     }
   }
-
+  
+  &.navbar-default .navbar-nav > .active {
+      & > a, & > a:hover, & > a:focus {
+        background-color: white;
+      }
+  }
+  
   & #mainNavigation {
     font-size: 12px;
     
-    & > *:not(:first-child) { //> *
-      margin-left: 23px
+    & > li:first-child a {
+      // not phones
+      @media (min-width: $screen-sm-max) {
+        padding-left: 0;
+      }
     }
-  }
-
-  & #social-icons {
-    // position: relative;
-    // right: -500px;
-    font-size: 9px;
-    text-align: right;
-    margin-top: 3px;
     
-    & a {
-      margin-right: 6px;
-      text-decoration: none;
-      // padding: 0px;
-      // & img {
-      //   width: 60%;
-      // }
-    
+    &.navbar-nav > li > a {
+      padding-top: 0;
     }
+    
+    // & > *:not(:first-child) { //> *
+    //   margin-left: 23px
+    // }
   }
   
-  & #languages {
-    font-family: "Alegreya", Georgia, "Times New Roman", Times, serif;
-    font-size: 12px;
-    text-align: right;
-    
-    display: none; // disabled for now
-    
-    & a:not(:last-child) {
-      margin-right: 4px;
+  & #secondaryNavigation {
+    position: absolute; 
+    right: 0;
+    top: 0;
+        
+    & #social-icons {
+      // position: relative;
+      // right: -500px;
+      font-size: 9px;
+      text-align: right;
+      margin-top: 3px;
+      float:left;
+      
+      & a {
+        margin-right: 6px;
+        text-decoration: none;
+        // padding: 0px;
+        // & img {
+        //   width: 60%;
+        // }
+      
+      }
     }
+    
+    & #languages {
+      font-family: "Alegreya", Georgia, "Times New Roman", Times, serif;
+      font-size: 12px;
+      text-align: right;
+      float:right;
+      
+      // display: none; // disabled for now
+      
+      & a:not(:last-child) {
+        margin-right: 4px;
+      }
+    }
+    
   }
+  
+  // & #headerBracket {
+  //   // position: relative;
+  // 
+  //   // @media (max-width: $screen-sm-min) {
+  //   //     width: 50px;
+  //   // }
+  //   
+  //   & .logoWrapper {
+  //     position: relative;
+  //     
+  //     & *[linkTo='about'] {
+  //       width: 100%;
+  //       opacity: 0;
+  //     
+  //       & img {
+  //         position: absolute;;
+  //         top:0;
+  //       }
+  //     }
+  //         
+  //     & img {
+  //       width: 100%;
+  //       transition: opacity 5s ease-in-out;
+  //     }
+  //   }
+  // }
+
+
+  
   
   // .navbar-default {
   //   background-color: white;
