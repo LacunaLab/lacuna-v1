@@ -71,11 +71,22 @@ hr.brackets:after {
     & .navbar-brand {
       height: auto;
       padding-top: 0;
+      position: relative;
 
+      & a[linkTo='about'] {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+      }
+      
       // not phones
       @media (min-width: $screen-sm-max) {
         padding-bottom: 5px;
         padding-top: 5px;
+        
+        & a[linkTo='about'] {
+          top: 5px;
+        }
       }
       
       // phone and tablet
@@ -83,7 +94,7 @@ hr.brackets:after {
           padding-right: 0;
       }
       
-      & > img {
+      & img {
         width: 100%;
       
         //only desktop
@@ -116,10 +127,6 @@ hr.brackets:after {
       padding-right: 14px;
       text-align: center;
     }
-    
-    // & > *:not(:first-child) { //> *
-    //   margin-left: 23px
-    // }
   }
   
   & #secondaryNavigation {
@@ -155,68 +162,6 @@ hr.brackets:after {
     
   }
   
-  // & #headerBracket {
-  //   // position: relative;
-  // 
-  //   // @media (max-width: $screen-sm-min) {
-  //   //     width: 50px;
-  //   // }
-  //   
-  //   & .logoWrapper {
-  //     position: relative;
-  //     
-  //     & *[linkTo='about'] {
-  //       width: 100%;
-  //       opacity: 0;
-  //     
-  //       & img {
-  //         position: absolute;;
-  //         top:0;
-  //       }
-  //     }
-  //         
-  //     & img {
-  //       width: 100%;
-  //       transition: opacity 5s ease-in-out;
-  //     }
-  //   }
-  // }
-
-
-  
-  
-  // .navbar-default {
-  //   background-color: white;
-  //   border: none;
-  //   font-size: 20px;
-  //   font-weight: normal;
-  // }
-  // 
-  // .navbar-link {
-  //   cursor: pointer;
-  // }
-
-  // 
-  // .navbar-nav {
-  //   margin-top: 20px;
-  // }
-  // 
-  // 
-  // .language {
-  //   margin-top: 40px;
-  //   position: relative;
-  //   right: -520px;
-  //   display: none;
-  // }
-  // 
-  // 
-  // .social-media-link {
-  //   transform: scale(0.65,0.65);
-  // }
-  // 
-  // .language-element {
-  //   margin-left: 10px;
-  // }
 }
 
 
