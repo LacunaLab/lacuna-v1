@@ -1,7 +1,7 @@
 $(function() {
 
   // this is the navbar animate to section code
-  $(".navbar-link").click(function(ev) {
+  $("#header a").click(function(ev) {
     var linkTo = "#" + this.getAttribute("linkTo");
     //console.log(linkTo);
     $('html, body').animate({
@@ -9,7 +9,7 @@ $(function() {
       easeing: "ease-out"
     }, "slow");
 
-    $('.navbar-link').removeClass('active');
+    $('#header a').removeClass('active');
     $(ev.target).addClass('active');
   });
 
