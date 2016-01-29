@@ -1,41 +1,51 @@
-<header class="navbar-header clearfix">
+<nav id="header" class="navbar navbar-default navbar-fixed-top">
+  <div class="container relative">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+    <div class="row">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="col-sm-1 navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-            <div class="navbar-header clearfix"></div>
+          <div class="navbar-brand">
+            <img src="{{ "/img/brackets-grey.svg" | prepend: site.baseurl }}" alt="Lacuna Lab logo"/>
+            <a linkTo="about" class="navbar-link">
+                <img id="headerBracket-scroll" 
+                src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
+                alt="Lacuna Lab logo"/>
+            </a>
+          </div>
+      </div>
 
-            <!-- TODO: this is a hacky placeholder.  It should use a dynamic diev with background image. -->
-            <div id="headerBracket">
-                    <img  id="headerBracket-landing" 
-                    src="{{ "/img/brackets-grey.svg" | prepend: site.baseurl }}" 
-                    alt="Lacuna Lab logo"/>
-                    <a linkTo="about" class="navbar-link">
-                        <img id="headerBracket-scroll" 
-                        src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
-                        alt="Lacuna Lab logo"/>
-                    </a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a linkTo="latest"  class="navbar-link active">LATEST</a></li>
-                    <li><a linkTo="events"  class="navbar-link">EVENTS</a></li>
-                    <li><a linkTo="members" class="navbar-link">MEMBERS</a></li>
-                    <li><a linkTo="where"   class="navbar-link">FIND US</a></li>
-                </ul>
-                <ul class="nav navbar-nav social-icons">
-                  <li><a href="https://vimeo.com/lacunalab" target="_blank"><i class="fa fa-vimeo-square fa-2x social-media-link"></i></a></li>
-                  <li><a href="https://twitter.com/lacunalab" target="_blank"><i class="fa fa-twitter-square fa-2x social-media-link"></i></a></li>
-                  <li><a href="https://facebook.com/lacunalab" target="_blank"><i class="fa fa-facebook-square fa-2x social-media-link"></i></a></li>
-                  <li><a href="https://lacunalab.tumblr.com" target="_blank"><i class="fa fa-tumblr-square fa-2x social-media-link"></i></a></li>
-                </ul>
-                <ul class="nav navbar-nav language">
-                  <li class="language-element">EN</li>
-                  <li class="language-element">DE</li>
-                </ul>
-            </div>
-
+        <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="col-xs-12 col-xs-offset-0 col-sm-7 col-sm-offset-1">
+          <ul id="mainNavigation" class="nav navbar-nav">
+            <li class="active"><a linkTo="latest">LATEST</a></li>
+            <li><a linkTo="events">EVENTS</a></li>
+            <li><a linkTo="events">MEMBERS</a></li>
+            <li><a linkTo="where">FIND US</a></li>
+          </ul>
         </div>
-    </nav>
+      </div><!-- /.navbar-collapse -->
+      <div id="secondaryNavigation">
+        
+        <nav id="social-icons" class="hide-phone">
+            <a href="https://vimeo.com/lacunalab" target="_blank" class="fa fa-vimeo-square fa-2x social-media-link"></a>
+            <a href="https://twitter.com/lacunalab" target="_blank" class="fa fa-twitter-square fa-2x social-media-link"></a>
+            <a href="https://facebook.com/lacunalab" target="_blank" class="fa fa-facebook-square fa-2x social-media-link"></a>
+            <a href="https://lacunalab.tumblr.com" target="_blank" class="fa fa-tumblr-square fa-2x social-media-link"></a>
+        </nav>
+        <nav id="languages" class="columnPaddings">
+          <a class="language-element">EN</a>
+          <a class="language-element">DE</a>
+        </nav>
+      </div>
+    </div>
 
-</header>
+  </div><!-- /.container -->
+</nav>

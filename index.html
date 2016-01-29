@@ -64,8 +64,8 @@ layout: default
       var which = sectionPosTop[i].name;
 
       // hide logo when on 'about' sectionPos
-      var logo = $('a.navbar-link[linkTo=about]');
-      var targetOpacity = which == 'about' ? 0 : 1;
+      var logo = $('.navbar-brand a[linkTo=about]');
+      var targetOpacity = (which == 'about') ? 0 : 1;
       var opacity = logo.css('opacity');
       if(opacity != targetOpacity) {
         logo.fadeTo(500, targetOpacity);
