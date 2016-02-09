@@ -23,31 +23,40 @@
 
 body {
   font-size: 2.2rem;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* add [ ] logotype to horizontal rules */
-hr {
-    height: 1px;
-    border: none;
-    background-color: $grey;
-    color: $grey;
-    text-align: center;
+
+h1 {
+  font-family: $font-family-serif;
 }
 
 h2 {
   padding-bottom: 20px;
   font-weight: bold;
+  font-size: 22.72px;
+  text-transform: uppercase;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: $grey;
+  color: $grey;
+  text-align: center;
+  width: 90%;
 }
 
 hr.brackets:after {
-    white-space: pre;
-    content: "[  ]";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: $white;
+  white-space: pre;
+  content: "[  ]";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: $white;
 }
 
 .jumbotron {
@@ -173,40 +182,42 @@ a.brackets:after {
   //content: " ]";
 }
 
-h1 {
-  font-family: $font-family-serif;
+[data-highlight-menu="about"] {
+  
+  #logo {
+    width: 28%;
+    margin-left: auto;
+    margin-bottom: 8%;
+    margin-top: 10%;
+  }
+  
+  /*
+  phrase blinks at the end, cuz its overflowing and the last word
+  is in the 2nd line.
+  */
+  #phrase {
+    max-width: 100%;
+    height: 1em; // that's one line, 2em for 2 lines, etc...
+    line-height: 1em; // the height of one text line
+    overflow: hidden;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .about_text {
+    font-size: 20px;
+  }
 }
 
-#logo {
-  width: 28%;
-  margin-left: auto;
-  margin-bottom: 8%;
-  margin-top: 10%;
-}
+[data-highlight-menu="members"] {
+  & li {
+    font-size: 16px;
+  }
 
-.about_text {
-}
-
-/*
-phrase blinks at the end, cuz its overflowing and the last word
-is in the 2nd line.
-*/
-#phrase {
-  max-width: 100%;
-  height: 1em; // that's one line, 2em for 2 lines, etc...
-  line-height: 1em; // the height of one text line
-  overflow: hidden;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
-hr {
-  width: 90%;
-}
-
-.member {
-  padding-bottom: 30px;
+  .member {
+    padding-bottom: 30px;
+  }
 }
 
 [data-highlight-menu="where"] {
@@ -235,9 +246,22 @@ hr {
         top: 50%;
         transform: translate(0,-50%);
         
-        padding: 10px;
+        padding: 23px 10px 40px 10px;
         margin: 0;
         background-color: white;
+        font-size: 18px;
+        font-family: $font-family-serif;
+        line-height: 21.6px;
+        
+        & p {
+          padding: 0 10px;
+          margin: 0px;
+          
+          &:not(:first-child) {
+            margin-top: 23px;
+          }
+
+        }
       }
     }
   }

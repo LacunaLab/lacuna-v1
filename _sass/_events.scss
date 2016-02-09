@@ -1,64 +1,64 @@
-.event_year {
-    position: relative;
-    left: -230px;
-    top: 72px;
-    font-size: 35px;
+[data-highlight-menu="events"] {
+  & .event_year {
+      position: relative;
+      left: -230px;
+      top: 72px;
+      font-size: 35px;
+      font-weight: bold;
+  }
+
+  & .event_month, & .event_day {
+      font-family: $font-family-sans-serif;
+      font-size: 35px;
+      font-weight: bold;
+  }
+  & .event_month {
+    margin-bottom: -15px;
+  }
+  & .event_day {
+    margin-bottom: -5px;
+  }
+
+  & .event_time {
+    font-size: 18px;
     font-weight: bold;
-}
+  }
 
-.event_month {
-  font-family: $font-family-sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  margin-bottom: -15px;
-}
+  & .event_title {
+    font-size: 16px;
+    line-height: 22px;
+  }
 
-.event_day {
-  font-family: $font-family-sans-serif;
-  font-size: 35px;
-  font-weight: bold;
-  margin-bottom: -5px;
-}
+  & .event_line {
+    border-top: 2px solid #000000;
+    margin-left: 0px;
+    width: 20%;
+  }
 
-.event_time {
-  font-size: 25px;
-  font-weight: bold;
-}
+  & .event_location {
+    font-family: $font-family-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: -3px;
+  }
 
-.event_title {
-  font-size: 20px;
-  line-height: 22px;
-}
+  & .event_location_city {
+    font-family: $font-family-serif;
+    font-size: 16px;
+    font-weight: normal;
+  }
 
-.event_line {
-  border-top: 2px solid #000000;
-  margin-left: 0px;
-  width: 20%;
-}
+  & .event_description {
+    font-family: $font-family-serif;
+    font-size: 16px;
+    font-weight: normal;
+  }
 
-.event_location {
-  font-family: $font-family-serif;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: bold;
-  margin-bottom: -3px;
-}
-
-.event_location_city {
-  font-family: $font-family-serif;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.event_description {
-  font-family: $font-family-serif;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.event_image {
-  margin-left: 0px;
-  margin-bottom: 20px;
-  width: 250px;
-  height: 250px;
+  & .event_image {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    // width: 250px;
+    // height: 250px;
+  }
 }

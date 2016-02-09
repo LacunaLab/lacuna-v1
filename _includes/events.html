@@ -29,8 +29,9 @@
                       </p>
 
                       <p class="event_time">{{ event.time }}</p>
-                      <img src="img/events/{{ event.image }}" class="event_image"/>
-
+                      <div class="row">
+                        <img src="img/events/{{ event.image }}" class="event_image col-xs-8"/>
+                      </div>
                       <p class="event_title">{{event.name}}</p>
                       <hr class="event_line">
                       <p class="event_location">{{event.location}}</p>
