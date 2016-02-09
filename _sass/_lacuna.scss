@@ -33,19 +33,21 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 20px;
+  padding-bottom: 0;
   font-weight: bold;
   font-size: 22.72px;
   text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 55px;
 }
 
 hr {
   height: 1px;
   border: none;
-  background-color: $grey;
-  color: $grey;
+  background-color: $light-grey;
+  color: $light-grey;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 
 hr.brackets:after {
@@ -216,7 +218,7 @@ a.brackets:after {
   }
 
   .member {
-    padding-bottom: 30px;
+    padding-bottom: 24px;
   }
 }
 
