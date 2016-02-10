@@ -297,6 +297,12 @@ a.brackets:after {
         font-size: 18px;
         font-family: $font-family-serif;
         line-height: 21.6px;
+        font-style: italic;
+        
+        & .addressLabel {
+          font-weight: bold;
+          font-style: normal;
+        }
         
         & p {
           padding: 0 10px;
