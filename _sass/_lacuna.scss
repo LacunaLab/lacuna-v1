@@ -63,7 +63,8 @@ hr.brackets:after {
 
 .jumbotron {
   background: $white;
-  margin-top: 20px;
+  margin-top: 63px;
+  margin-bottom: 22px;
 }
 
 .active {
@@ -78,6 +79,7 @@ hr.brackets:after {
   
   
   &.navbar {
+    margin-bottom: 0;
     
     & .navbar-brand {
       height: auto;
@@ -186,18 +188,22 @@ a.brackets:after {
 
 [data-highlight-menu="about"] {
   
-  #logo {
+  & #logo {
     width: 28%;
+    min-width: 90px;
+    max-width: 183px;
     margin-left: auto;
     margin-bottom: 8%;
-    margin-top: 10%;
+    max-margin-bottom: 62px;
+    margin-top: 5vw;
+    min-margin-top: 50px;
   }
   
   /*
   phrase blinks at the end, cuz its overflowing and the last word
   is in the 2nd line.
   */
-  #phrase {
+  & #phrase {
     max-width: 100%;
     height: 1em; // that's one line, 2em for 2 lines, etc...
     line-height: 1em; // the height of one text line
@@ -207,9 +213,25 @@ a.brackets:after {
     margin-bottom: 30px;
   }
   
-  .about_text {
+  & .about_text {
     font-size: 20px;
   }
+  
+  & .fa {
+    font-size: 14px;
+    color: black;
+    
+    &.fa-map-marker {
+      margin-left: 2px;
+    }
+    
+    &.fa-envelope {
+      margin-right: -4px;
+      margin-left: -0.5px;
+    }
+
+  }
+  
 }
 
 [data-highlight-menu="members"] {
