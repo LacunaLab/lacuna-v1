@@ -241,6 +241,27 @@ a.brackets:after {
 
   .member {
     padding-bottom: 24px;
+
+    & a {
+      color: $black;
+      
+      &:hover {
+        text-decoration: none;
+        
+        &::before , &::after {
+          color: $black;
+        }
+      }
+      &::before , &::after {
+        color: $grey;
+      }
+      &::before {
+          content: '[';
+      }
+      &::after {
+          content: ']';
+      }
+    }
   }
 }
 
