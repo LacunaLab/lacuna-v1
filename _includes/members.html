@@ -8,9 +8,9 @@
           {% for member in site.data.members %}
 
           <li class="col-sm-6 col-md-4 member" class="memberentry">
-            <a target="_blank" class="brackets" href="{{ member.website }}">
+            {% if member.website %}<a target="_blank" class="brackets" href="{{ member.website }}">{% endif %}
               {{ member.name }}
-            </a>
+            {% if member.website %}</a>{% endif %}
           </li>
 
           {% endfor %}
