@@ -45,6 +45,10 @@ h2 {
   margin-bottom: 55px;
 }
 
+footer {
+  margin: 30px 0;
+}
+
 hr {
   height: 1px;
   border: none;
@@ -227,10 +231,11 @@ a.brackets:after {
     
     &.fa-map-marker {
       margin-left: 2px;
+      margin-right: 1px;
     }
     
     &.fa-envelope {
-      margin-right: -4px;
+      margin-right: -1.5px;
       margin-left: -0.5px;
     }
 
