@@ -1,6 +1,6 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
-- name: Lacuna Lab Public Activation Exhibition
+- name: Lacuna Lab Activation Ausstellung
   date: 2016-04-22
   time: 8pm
   image: 20160410_spektrum_exhibition.jpg
@@ -17,10 +17,10 @@
   date: 2015-12-31
   time: 8pm
   image: 20151231_nye.jpg
-  location: Lacuna Lab Headquarters
+  location: Lacuna Lab
   location-city: Berlin
   description: >
-    There's a celebration for new years eve in our warm etablissement. Drinks, Music and fingernail-engravings! BYOB, too!
+    There's a celebration for New Year's Eve in our warm establishment. Drinks, music and fingernail-engravings! BYOB, too!
 
 - name: Laser Cutting Workshop
   date: 2015-11-27
@@ -29,7 +29,7 @@
   location: Lacuna Lab
   location-city: Berlin
   description: >
-    Marcel's been Frankenstein-ing up a laser cutter for Lacuna.  Come learn how to use it!
+    Marcel's been Frankenstein-ing up a laser cutter for Lacuna Lab.  Come learn how to use it!
 
 
 - name: The Weight of Words
