@@ -1,17 +1,15 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
-- name: Lacuna Lab Activation Ausstellung
+- name: Lacuna Lab Activation Exhibition
   date: 2016-04-22
-  time: 8pm
+  time: 7pm
   image: 20160410_spektrum_exhibition.jpg
   location: Spektrum
   location-city: Berlin
   description: >
-    Lacuna Lab announces itself to the world with its first public exhibition.
-    Come witness the epic feats of cross-disciplinary collaboration!
-    Marvel at the genius use and misuse of technology as a means for social intervention!
-    Shake hands with the great guys and gals behind it all!
-    Wish you were as cool as they are!
+    For three days, Spektrum is overgrown by Lacuna Lab, a Berlin-centred collective of trans-disciplinary artists.
+    For the collective's inaugural exhibition, spores of ideas waft across the canal from their studio on
+    Paul-Lincke-Ufer, taking root as a multi-channel network of biology- and technology-based pieces.
 
 - name: New Years Celebration
   date: 2015-12-31
