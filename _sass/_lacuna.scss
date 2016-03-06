@@ -26,6 +26,10 @@ hr.brackets:after {
     height: 135px;
 }
 
+a {
+    cursor: pointer;
+}
+
 a.brackets:before {
   content: "[ ";
 }
