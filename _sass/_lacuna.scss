@@ -28,6 +28,10 @@ body {
 
 /* add [ ] logotype to horizontal rules */
 
+a {
+  cursor: pointer;
+}
+
 h1 {
   font-family: $font-family-serif;
 }
