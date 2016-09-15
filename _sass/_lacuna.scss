@@ -75,10 +75,6 @@ hr.brackets:after {
   margin-bottom: 22px;
 }
 
-.active {
-  text-decoration: underline;
-}
-
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -135,18 +131,34 @@ hr.brackets:after {
   
   & #mainNavigation {
     font-size: 12px;
+
+    @media  (max-width: $screen-xs-max) {
+      width: 110px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     
     & > li:first-child a {
       // not phones
       @media (min-width: $screen-xs-max) {
-        padding-left: 0;
+        padding: 0;
       }
     }
     
-    &.navbar-nav > li > a {
-      padding-top: 0;
-      padding-right: 14px;
-      text-align: center;
+    &.navbar-nav > li {
+      &.active {
+        // not phones
+        @media (min-width: $screen-xs-max) {
+          margin-right: 14px;
+        }
+        border-bottom: 2px solid gray; 
+      }
+
+      & > a {
+        padding-top: 0;
+        padding-bottom: 2px;
+        text-align: center;
+      }
     }
   }
   
