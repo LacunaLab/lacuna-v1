@@ -16,6 +16,9 @@
 - name: Cyborgs e.V.
   website: http://cyborgs.cc
 
+- name: Gene Kogan
+  website: http://www.genekogan.com
+
 - name: Jemma Woolmore
   website: http://www.jemthemisfit.com
 
@@ -34,6 +37,9 @@
 - name: Nenad Popov
   website: http://morphogenesis.eu/
 
+- name: Nuño de la Serna
+  website: http://action-io.tumblr.com/
+
 - name: Peter A. Kolski
   website: http://www.BildPeter.de/
 
@@ -49,8 +55,8 @@
 - name: Sé Sneaky
   website: http://sesneaky.com
 
-- name: Soma Holiday
-  website: http://somaholiday.com
+#- name: Soma Holiday
+#  website: http://somaholiday.com
 
 - name: Thomas Heidtmann
   website: http://www.thomasheidtmann.de/
