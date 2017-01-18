@@ -10,3 +10,7 @@ github_username:  LacunaLab
 
 # Build settings
 markdown: kramdown
+
+collections:
+  events:
+    output: true
