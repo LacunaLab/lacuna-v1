@@ -12,12 +12,23 @@
           </button>
 
           <div class="navbar-brand">
+	    <!-- Logo behaviour for the homepage -->
+	    {% if page.url == "/" %}
             <img src="{{ "/img/brackets-grey.svg" | prepend: site.baseurl }}" alt="Lacuna Lab logo"/>
             <a linkTo="about" class="navbar-link">
                 <img id="headerBracket-scroll" 
                 src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
                 alt="Lacuna Lab logo"/>
             </a>
+	    <!-- Logo behaviour for other pages -->
+	    {% else %}
+            <a href="../index#about" class="navbar-link">
+                <img id="headerBracket-scroll" 
+                src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
+                alt="Lacuna Lab logo"/>
+            </a>
+	    {% endif %}
+
           </div>
       </div>
 
@@ -33,11 +44,11 @@
             <li><a linkTo="members">MEMBERS</a></li>
             <li><a linkTo="where">FIND US</a></li>
           {% else %} <!-- Jump to anchor navigation for all other pages -->
-            <li class="active"><a href ="../index.html#about">ABOUT</a></li>
-            <li><a href ="../index.html#opencall">OPEN CALL</a></li>
+            <li class="active"><a href="../index.html#about">ABOUT</a></li>
+            <li><a href="../index.html#opencall">OPEN CALL</a></li>
             <li><a href="../index.html#events">EVENTS</a></li>
-            <li><a href ="../index.html#members">MEMBERS</a></li>
-            <li><a href ="../index.html#where">FIND US</a></li>
+            <li><a href="../index.html#members">MEMBERS</a></li>
+            <li><a href="../index.html#where">FIND US</a></li>
           {% endif %}
           </ul>
         </div>
