@@ -5,6 +5,8 @@
 // Lacuna Brand Colours
 $black: #000000;
 $grey:  #999999;
+$light-grey: #e6e6e6; //e.g. hr lines 
+
 $white: #FFFFFF;
 
 // Site-wide Fonts
@@ -15,5 +17,5 @@ $font-family-base:        $font-family-sans-serif !default;
 
 $link-color:            $grey !default;
 $link-hover-color:      darken($link-color, 15%) !default;
-    
+
 @import "bootstrap/variables";

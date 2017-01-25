@@ -1,6 +1,80 @@
-<div class="container">
-    <h2>Latest Stuff</h2>
-    <div style="border: 1px solid black; height: 300px">
-      Placeholder for videos and other external content (Vimeo, Tumblr...)
-    </div>
+<div class="container highlight" data-highlight-menu="latest">
+  <div class="row">
+    <div class="col-xs-8 col-xs-push-2">
+      <div class="row">
+        <h2 class="col-xs-12">Latest Stuff</h2>
+
+        <div id="latestCarousel" class="carousel slide col-xs-12" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#latestCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#latestCarousel" data-slide-to="1"></li>
+            <li data-target="#latestCarousel" data-slide-to="2"></li>
+            <li data-target="#latestCarousel" data-slide-to="3"></li>
+            <li data-target="#latestCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active latestContainer">
+            </div>
+            <div class="item latestContainer">
+            </div>
+            <div class="item latestContainer">
+            </div>
+            <div class="item latestContainer">
+            </div>
+            <div class="item latestContainer">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#latestCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#latestCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div id="carousel-item-info">
+
+
+        </div>
+
+        <script type="text/javascript">
+          var numberOfPosts = 10;
+        	$.get("http://lacunalab.tumblr.com/api/read/json?num="+numberOfPosts,
+        		function(data){
+        			//console.log(data);
+        			var posts = data.posts;
+        			var latestContainer = $('.latestContainer');
+        			for(var i = 0; i < posts.length; i++){
+        				var post = data.posts[i];
+        				var container = latestContainer.eq(i);
+        				var postType = post.type;
+                //console.log(post);
+        				if(postType == "video") {
+        					container.append(post["video-source"]);
+        				} else if(postType == "photo") {
+                  var div = $('<div class="imgContainer" style="background-image: url(' + post['photo-url-500']+ ');">');
+        					container.append(div);
+                  var caption = $('<div>').addClass("latest-item-caption");
+                  caption.append(post["photo-caption"]);
+                  console.log(post["caption"]);
+                  container.append(caption);
+        				}
+        			}
+        		},"jsonp");
+            $('.carousel').carousel({
+              interval: 10000
+            });
+        </script>
+
+        </div>
+      </div>
+  </div>
 </div>
+

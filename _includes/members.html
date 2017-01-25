@@ -1,17 +1,22 @@
-<div class="container">
-    <h2>Lacuna Members</h2>
-    
-    <ul class="row list-unstyled">
-        
-        {% for member in site.data.members %}
-        
-        <li class="col-md-4">
-            <a target="_blank" class="brackets" href="{{ member.website }}">
+<div class="highlight" data-highlight-menu="members">
+  <div class="row">
+    <div class="col-xs-9 col-xs-push-2">
+      <div class="row">
+        <h2 class="col-xs-12">Lacuna Members</h2>
+        <ul class="list-unstyled">
+          
+          {% for member in site.data.members %}
+
+          <li class="col-sm-6 col-md-4 member" class="memberentry">
+            {% if member.website %}<a target="_blank" class="brackets" href="{{ member.website }}">{% endif %}
               {{ member.name }}
-            </a>
-        </li>
+            {% if member.website %}</a>{% endif %}
+          </li>
+
+          {% endfor %}
         
-        {% endfor %}
-    
-    </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>

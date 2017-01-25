@@ -1,46 +1,78 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
-- name: Lacuna Lab Public Activation Exhibition
+
+- name: Serious Sparkles. An Inquiry into Artificial Stupidity
+  date: 2017-02-10
+  time: to Feb 11
+  image: serioussparkles.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-02-10_serious_sparkles
+  description: >
+   As part of Transmediale Vorspiel, we present a two-day exhibition of interactive artworks at Lacuna Lab, with a performance or talk on each evening.
+   Visitors are invited to explore an elusive physical and digital snapshot of our ever-shifting collaborative
+   activities across a range of tools and methods such as robotics, audio-visual performance, generative art and machine learning.  
+
+
+- name: ART GRANT Writing Seminar & Workshop
+  date: 2017-01-16
+  time: to Jan 25
+  image: berlinartgrantclinic.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-01-16_artgrantclinic
+  description: >
+    Lacuna Lab hosts Berlin Art Grant Clinic's GRANT DIAGNOSIS SEMINAR (16-17 January) and OPERATION WORKSHOP (24-25 January).
+    Further info at artgrantclinic.org.
+    
+- name: Lacuna Lab Activation Exhibition
   date: 2016-04-22
-  time: 20:00 - 23:00
-  location: > 
-    Spektrum
-    Bürknerstraße 12
-    12047 Berlin
-  description: > 
-    Lacuna Lab announces itself to the world with its first public exhibition.
-    Come witness the epic feats of cross-disciplinary collaboration!
-    Marvel at the genius use and misuse of technology as a means for social intervention!
-    Shake hands with the great guys and gals behind it all!
-    Wish you were as cool as they are!
+  time: 7pm
+  image: activation.png
+  location: Spektrum
+  location-city: Berlin
+  filename: 2016-04-22_activation
+  description: >
+    For three days, Spektrum is overgrown by Lacuna Lab, a Berlin-centred collective of trans-disciplinary artists.
+    For the collective's inaugural exhibition, spores of ideas waft across the canal from their studio on
+    Paul-Lincke-Ufer, taking root as a multi-channel network of biology- and technology-based pieces.
+
+- name: New Year's Celebration
+  date: 2015-12-31
+  time: 8pm
+  image: 20151231_nye.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  description: >
+    There's a celebration for New Year's Eve in our warm establishment. Drinks, music and fingernail-engravings! BYOB, too!
 
 - name: Laser Cutting Workshop
   date: 2015-11-27
-  time: 13:00 - 19:00
+  time: 1pm
+  image: 20151127_laser_workshop.png
   location: Lacuna Lab
-  description: > 
-    Marcel's been Frankenstein-ing up a laser cutter for Lacuna.  Come learn how to use it!
+  location-city: Berlin
+  description: >
+    Marcel's been Frankenstein-ing up a laser cutter for Lacuna Lab.  Come learn how to use it!
+
 
 - name: The Weight of Words
   date: 2015-11-25
+  time: 1pm
+  image: 20151125_weight_of_words.jpg
   location: Lacuna Lab
-  description: > 
+  location-city: Berlin
+  description: >
     The Weight of Words is a performance-installation that exists at the meeting point of written
     text and moving body.  The piece takes place between a dancer, a visual artist, and a poet
     together in a room.
 
-- name: Other Lovely Event
-  date: 2015-12-25
-  time: 19:00 - 19:02
-  location: Cool Venue
-  description: Something awesome probably.
-
 - name: Lumière II
-  date: 2015-11-25
-  time: 19:00 - 23:00
-  location: > 
-    Volksbühne
-    Rosa-Luxemburg-Platz
-  description: > 
+  date: 2015-11-12
+  time: 7pm
+  image: 20151112_robert_henke_lumiere2.jpg
+  location: Volksbühne
+  location-city: Berlin
+  description: >
     We don't have anything to do with this event, but it should be cool.  Also the name and location
     test display of special characters, so that's nice.

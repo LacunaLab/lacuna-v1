@@ -1,39 +1,381 @@
+
+// limits the viewport to a max width
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.columnPaddings {
+  padding: 0 ($grid-gutter-width / 2);
+}
+
+@media (max-width: $screen-xs-max) {
+  .hide-phone {
+    display: none !important;
+  }
+}
+
+
+body {
+  font-size: 2.2rem;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* add [ ] logotype to horizontal rules */
-hr {
-    height: 1px;
-    border: none;
-    background-color: $grey;
-    color: $grey;
-    text-align: center;
-}
 
-hr.brackets:after {
-    white-space: pre;
-    content: "[  ]";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: $white;
-}
-
-.jumbotron {
-  background: $white;
-}
-
-#map {
-    height: 135px;
-}
-
-a.brackets:before {
-  content: "[ ";
-}
-
-a.brackets:after {
-  content: " ]";
+a {
+  cursor: pointer;
 }
 
 h1 {
   font-family: $font-family-serif;
+}
+
+h2 {
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 22.72px;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 55px;
+}
+
+footer {
+  margin: 30px 0;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: $light-grey;
+  color: $light-grey;
+  text-align: center;
+  width: 100%;
+}
+
+hr.brackets:after {
+  white-space: pre;
+  content: "[  ]";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: $white;
+}
+
+.jumbotron {
+  background: $white;
+  margin-top: 63px;
+  margin-bottom: 22px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+#header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  border: none;
+  
+  
+  &.navbar {
+    margin-bottom: 0;
+    
+    & .navbar-brand {
+      height: auto;
+      padding-top: 0;
+      position: relative;
+
+      & a[linkTo='about'] {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+      }
+      
+      // not phones
+      @media (min-width: $screen-sm-max) {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        
+        & a[linkTo='about'] {
+          top: 5px;
+        }
+      }
+      
+      // phone and tablet
+      @media (min-width: $screen-md-min) {
+          padding-right: 0;
+      }
+      
+      & img {
+        width: 100%;
+      
+        //only desktop
+        @media (max-width: $screen-md-min) {
+            width: 50px;
+        }
+
+      }
+    }
+  }
+  
+  &.navbar-default .navbar-nav > .active {
+      & > a, & > a:hover, & > a:focus {
+        background-color: white;
+      }
+  }
+  
+  & #mainNavigation {
+    font-size: 12px;
+    
+    & > li:first-child a {
+      // not phones
+      @media (min-width: $screen-xs-max) {
+        padding-left: 0;
+      }
+    }
+    
+    &.navbar-nav > li > a {
+      padding-top: 0;
+      padding-right: 14px;
+      text-align: center;
+    }
+  }
+  
+  & #secondaryNavigation {
+    position: absolute; 
+    right: 0;
+    top: 0;
+        
+    & #social-icons {
+      font-size: 9px;
+      text-align: right;
+      margin-top: 3px;
+      margin-right: 33px;
+      float:left;
+      
+      & a {
+        margin-right: 6px;
+        text-decoration: none;
+      }
+    }
+    
+    & #languages {
+      font-family: "Alegreya", Georgia, "Times New Roman", Times, serif;
+      font-size: 12px;
+      text-align: right;
+      float:right;
+      
+      // display: none; // disabled for now
+      
+      & a:not(:last-child) {
+        margin-right: 4px;
+      }
+    }
+    
+  }
+  
+}
+
+
+a {
+    cursor: pointer;
+}
+
+a.brackets:before {
+  //content: "[ ";
+}
+
+a.brackets:after {
+  //content: " ]";
+}
+
+[data-highlight-menu="about"] {
+  
+  & #logo {
+    width: 28%;
+    min-width: 90px;
+    max-width: 183px;
+    margin-left: auto;
+    margin-bottom: 8%;
+    max-margin-bottom: 62px;
+    margin-top: 5vw;
+    min-margin-top: 50px;
+  }
+  
+  /*
+  phrase blinks at the end, cuz its overflowing and the last word
+  is in the 2nd line.
+  */
+  & #phrase {
+    max-width: 100%;
+    height: 1em; // that's one line, 2em for 2 lines, etc...
+    line-height: 1em; // the height of one text line
+    overflow: hidden;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  & .about_text {
+    font-size: 20px;
+  }
+  
+  & .fa {
+    font-size: 14px;
+    color: black;
+    
+    &.fa-map-marker {
+      margin-left: 2px;
+      margin-right: 1px;
+    }
+    
+    &.fa-envelope {
+      margin-right: -1.5px;
+      margin-left: -0.5px;
+    }
+
+  }
+  
+}
+
+[data-highlight-menu="members"] {
+  & li {
+    font-size: 16px;
+  }
+
+  .member {
+    padding-bottom: 24px;
+    color: $black;
+
+    & a {
+      color: $black;
+      
+      &:hover {
+        text-decoration: none;
+        
+        &::before , &::after {
+          color: $black;
+        }
+      }
+      &::before , &::after {
+        color: $grey;
+      }
+      &::before {
+          content: '[';
+      }
+      &::after {
+          content: ']';
+      }
+    }
+  }
+}
+
+[data-highlight-menu="where"] {
+  & .row {
+    
+    & #mapWrapper {
+      position: relative;
+      clear: both;
+      height: 435px;
+      
+      & #map {
+          clear: left;
+          position: absolute;
+          // height: 435px;
+          // width: 96%;
+          // left: 2%;
+          height: 100%;
+          
+          & .leaflet-control-attribution, & .leaflet-control-attribution a, & .leaflet-control-attribution a:hover, & .leaflet-control-attribution a:visited {
+            color: rgb(51, 51, 51);
+          }
+      }
+      
+      & #address {
+        position: relative;
+        top: 50%;
+        transform: translate(0,-50%);
+        
+        padding: 23px 10px 40px 10px;
+        margin: 0;
+        background-color: white;
+        font-size: 18px;
+        font-family: $font-family-serif;
+        line-height: 21.6px;
+        font-style: italic;
+        
+        & .addressLabel {
+          font-weight: bold;
+          font-style: normal;
+        }
+        
+        & p {
+          padding: 0 10px;
+          margin: 0px;
+          
+          &:not(:first-child) {
+            margin-top: 23px;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+#collabs {
+  margin-top: 400px;
+}
+
+.credit {
+  text-align: center;
+  font-size: 80%;
+}
+
+.collab {
+  width: 80%;
+  max-height: 180px;
+  margin-bottom: 40px;
+}
+
+.div-scroll
+{
+  width:100%;
+  overflow-x:scroll;
+}
+
+.memberentry {
+  padding-bottom:25px;
+}
+
+// temporarily fixing the height of this section as it's annoying to work on sections below it. 
+[data-highlight-menu="latest"] {
+  height: 800px
+}
+
+
+.carousel-inner > .item > * {
+  margin: initial !important;
+}
+.carousel-control.right {
+  right: 300px !important;
+}
+.carousel-control.left {
+  left: -200px !important;
+}
+.latest-item-caption {
+  width: 640px;
+  br {
+    content: " ";
+    display: none;
+  }
 }

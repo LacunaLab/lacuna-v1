@@ -1,6 +1,6 @@
 # Site settings
 title: Lacuna Lab
-email: lacunalabberlin@gmail.com
+email: info@lacunalab.org
 description: > # this means to ignore newlines until "baseurl:"
   Collaborative co-creation space in Berlin Kreuzberg.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -10,3 +10,7 @@ github_username:  LacunaLab
 
 # Build settings
 markdown: kramdown
+
+collections:
+  events:
+    output: true

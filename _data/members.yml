@@ -1,56 +1,63 @@
 - name: Abe Pazos
-  website: http://lacunalab.com
+  website: http://hamoid.com
 
-- name: Alexander Koenig
-  website: http://lacunalab.com
+#- name: Claudine Chen
+#  website: http://lacunalab.com
 
-- name: Angelo Wyszengrad
-  website: http://lacunalab.com
+#- name: Alexander Koenig
+#  website: http://aureliafriedland.com
 
-- name: Arturo Castro
-  website: http://lacunalab.com
+- name: '[ Angelo Wyszengrad ]'
+#  website: http://lacunalab.com
 
 - name: Aurelia Friedland
-  website: http://lacunalab.com
-
-- name: Carolina Romano
-  website: http://lacunalab.com
+  website: http://aureliafriedland.com/
 
 - name: Cyborgs e.V.
-  website: http://lacunalab.com
+  website: http://cyborgs.cc
+
+- name: Gene Kogan
+  website: http://www.genekogan.com
 
 - name: Jemma Woolmore
-  website: http://lacunalab.com
+  website: http://www.jemthemisfit.com
 
-- name: Jerry Volker
-  website: http://lacunalab.com
+- name: Jeremias Volker
+  website: http://www.jeremiasvolker.com
 
 - name: Marcel Schwittlick
-  website: http://lacunalab.com
+  website: http://www.mrzl.net
 
 - name: Mei-Fang Liau
-  website: http://lacunalab.com
+  website: https://mfl.floatingspectrum.com
 
 - name: Nayeli Vega
-  website: http://lacunalab.com
+  website: http://yokoiki.com  
 
 - name: Nenad Popov
-  website: http://lacunalab.com
+  website: http://morphogenesis.eu/
+
+- name: Nuño de la Serna
+  website: http://action-io.tumblr.com/
+
+- name: Peter A. Kolski
+  website: http://www.BildPeter.de/
 
 - name: Ramin Soleymani
-  website: http://lacunalab.com
+  website: http://diskordier.net
 
 - name: Rin Raeuber
-  website: http://lacunalab.com
+  website: http://rin.li/
 
 - name: Sarah Hermanutz
-  website: http://lacunalab.com
+  website: http://sarahhermanutz.com
 
-- name: Séamus Kneafsey
-  website: http://lacunalab.com
+- name: Sé Sneaky
+  website: http://sesneaky.com
 
-- name: Soma Holiday
-  website: http://lacunalab.com
+#- name: Soma Holiday
+#  website: http://somaholiday.com
 
 - name: Thomas Heidtmann
-  website: http://lacunalab.com
+  website: http://www.thomasheidtmann.de/
+
