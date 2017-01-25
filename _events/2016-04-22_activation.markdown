@@ -3,8 +3,8 @@ layout: post
 title:  "Lacuna Lab Activation Exhibition"
 date:   2016-04-22 13:16:37
 categories: exhibition
+image:	    lacuna_activation.jpg
 ---
-![Seroius Sparkles](/img/events/lacuna_activation.jpg)
 
 For three days, Spektrum is overgrown by Lacuna Lab, a Berlin-centred collective of trans-disciplinary artists. For the collective's inaugural exhibition, spores of ideas waft across the canal from their studio on Paul-Lincke-Ufer, taking root as a multi-channel network of biology- and technology-based pieces. These objects and installations draw input from their surroundings in Spektrum, the audience, and one another, creating a playful environment of screens, textiles, lights, lasers, plants, water vapor, and interwoven generative sounds. Opening with a live-generated audio-visual-dance performance, this exhibition investigates collaboration, perception, growth and decay. 
 

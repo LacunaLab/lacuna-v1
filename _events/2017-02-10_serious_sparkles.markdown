@@ -3,8 +3,8 @@ layout: post
 title:  "Serious Sparkles. An Inquiry into Artificial Stupidity"
 date:   2015-11-26 13:16:37
 categories: Exhibition
+image:	    "serious_sparkles.jpg"
 ---
-![Seroius Sparkles](/img/events/serious_sparkles.jpg)
 
 Lacuna Lab presents a two-day exhibition of interactive artworks, with a performance and talk on each evening. Serious Sparkles. 
 

@@ -2,9 +2,9 @@
 layout: post
 title:  "ART GRANT Writing Seminar & Workshop"
 date:   2017-01-16 13:16:37
-categories: jekyll update
+categories: 
+image:	    berlinartgrantclinic.jpg
 ---
-![Berlin Art Grant Clinic](/img/events/berlinartgrantclinic.jpg)
 
 We are happy to host Berlin Art Grant Clinic in Lacuna with the:
 
