@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Serious Sparkles. An Inquiry into Artificial Stupidity"
-date:   2015-11-26 13:16:37
+date:   2017-02-10 13:16:37
 categories: Exhibition
 image:	    "serious_sparkles.jpg"
 ---
