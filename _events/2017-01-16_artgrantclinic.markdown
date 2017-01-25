@@ -2,7 +2,7 @@
 layout: post
 title:  "ART GRANT Writing Seminar & Workshop"
 date:   2017-01-16 13:16:37
-categories: 
+categories: workshop
 image:	    berlinartgrantclinic.jpg
 ---
 
