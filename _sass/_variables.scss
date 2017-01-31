@@ -18,4 +18,11 @@ $font-family-base:        $font-family-sans-serif !default;
 $link-color:            $grey !default;
 $link-hover-color:      darken($link-color, 15%) !default;
 
+// Lacuna Logo
+$lacuna-logo-width: 30%;
+$Lacuna-logo-min-width: 90px;
+$Lacuna-logo-max-width: 183px;
+$Lacuna-logo-margin-bottom: 8%;
+$Lacuna-logo-margin-top: 5vw;
+
 @import "bootstrap/variables";

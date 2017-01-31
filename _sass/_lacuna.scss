@@ -198,16 +198,40 @@ a.brackets:after {
   //content: " ]";
 }
 
+.logo-container {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+
+.logo_canvas_container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    canvas {
+       display: block;
+    }
+}
+
 [data-highlight-menu="about"] {
   
   & #logo {
-    width: 28%;
-    min-width: 90px;
-    max-width: 183px;
+    width: $lacuna-logo-width;
+    min-width: $Lacuna-logo-min-width;
+    max-width: $Lacuna-logo-max-width;
     margin-left: auto;
-    margin-bottom: 8%;
+    margin-bottom: $Lacuna-logo-margin-bottom;
+    margin-top: $Lacuna-logo-margin-top;
+
     max-margin-bottom: 62px;
-    margin-top: 5vw;
     min-margin-top: 50px;
   }
   
