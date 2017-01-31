@@ -8,6 +8,7 @@
           
           {% for event in site.data.events limit:3 %}
           <div class="col-xs-12 col-sm-4">
+            <a href="events/{{ event.filename }}.html">
               <div class="panel panel-default" style="border:0px solid;">
                   <div class="<!--panel-heading-->" style="background-color: #ffffff;">
                       <p class="event_month">
@@ -43,6 +44,7 @@
                       <p class="event_description">{{event.description}}</p>
                   </div>
               </div>
+            </a>
           </div>
           {% endfor %}
       </div>

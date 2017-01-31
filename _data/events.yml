@@ -1,11 +1,37 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+
+- name: Serious Sparkles. An Inquiry into Artificial Stupidity
+  date: 2017-02-10
+  time: to Feb 11
+  image: serioussparkles.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-02-10_serious_sparkles
+  description: >
+   As part of Transmediale Vorspiel, we present a two-day exhibition of interactive artworks at Lacuna Lab, with a performance or talk on each evening.
+   Visitors are invited to explore an elusive physical and digital snapshot of our ever-shifting collaborative
+   activities across a range of tools and methods such as robotics, audio-visual performance, generative art and machine learning.  
+
+
+- name: ART GRANT Writing Seminar & Workshop
+  date: 2017-01-16
+  time: to Jan 25
+  image: berlinartgrantclinic.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-01-16_artgrantclinic
+  description: >
+    Lacuna Lab hosts Berlin Art Grant Clinic's GRANT DIAGNOSIS SEMINAR (16-17 January) and OPERATION WORKSHOP (24-25 January).
+    Further info at artgrantclinic.org.
+    
 - name: Lacuna Lab Activation Exhibition
   date: 2016-04-22
   time: 7pm
-  image: 20160410_spektrum_exhibition.jpg
+  image: activation.png
   location: Spektrum
   location-city: Berlin
+  filename: 2016-04-22_activation
   description: >
     For three days, Spektrum is overgrown by Lacuna Lab, a Berlin-centred collective of trans-disciplinary artists.
     For the collective's inaugural exhibition, spores of ideas waft across the canal from their studio on
