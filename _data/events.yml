@@ -1,6 +1,17 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
 
+- name: openFrameworks Berlin Meetup
+  date: 2017-03-10
+  time: 7pm
+  image: openFrameworks.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-03-10_open_frameworks
+  description: >
+   Lacuna Lab is hosting the March 2017 openFrameworks meetup.
+
+
 - name: Serious Sparkles. An Inquiry into Artificial Stupidity
   date: 2017-02-10
   time: to Feb 11
