@@ -1,5 +1,5 @@
-- name: Abe Pazos
-  website: http://hamoid.com
+#- name: Abe Pazos
+#  website: http://hamoid.com
 
 #- name: Claudine Chen
 #  website: http://lacunalab.com
@@ -7,11 +7,11 @@
 #- name: Alexander Koenig
 #  website: http://aureliafriedland.com
 
-- name: '[ Angelo Wyszengrad ]'
+#- name: '[ Angelo Wyszengrad ]'
 #  website: http://lacunalab.com
 
-- name: Aurelia Friedland
-  website: http://aureliafriedland.com/
+#- name: Aurelia Friedland
+#  website: http://aureliafriedland.com/
 
 - name: Cyborgs e.V.
   website: http://cyborgs.cc
@@ -22,14 +22,14 @@
 - name: Jemma Woolmore
   website: http://www.jemthemisfit.com
 
-- name: Jeremias Volker
-  website: http://www.jeremiasvolker.com
+#- name: Jeremias Volker
+#  website: http://www.jeremiasvolker.com
 
 - name: Marcel Schwittlick
   website: http://www.mrzl.net
 
-- name: Mei-Fang Liau
-  website: https://mfl.floatingspectrum.com
+#- name: Mei-Fang Liau
+#  website: https://mfl.floatingspectrum.com
 
 - name: Nayeli Vega
   website: http://yokoiki.com  
@@ -43,8 +43,8 @@
 - name: Peter A. Kolski
   website: http://www.BildPeter.de/
 
-- name: Ramin Soleymani
-  website: http://diskordier.net
+#- name: Ramin Soleymani
+#  website: http://diskordier.net
 
 - name: Rin Raeuber
   website: http://rin.li/
@@ -61,3 +61,20 @@
 - name: Thomas Heidtmann
   website: http://www.thomasheidtmann.de/
 
+- name: Nahum Mantra
+  website: http://nahum.xyz/
+  
+- name: Morris Winkler
+  website: http://www.laydrop.com/
+  
+- name: Fabien Artal
+  website: https://soundcloud.com/k-ii_n/
+  
+- name: Lucy Patterson
+  website: http://sciencehackday.org/
+  
+- name: Hiroshi Matoba
+  website: http://dominofactory.net/
+  
+- name: Johanna Tano
+  website: https://www.instagram.com/johannatano/
