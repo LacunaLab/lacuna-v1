@@ -11,6 +11,16 @@
   description: >
    For #13 of the Retune Studio Visit series, we at Lacuna Lab are welcoming the creative tech community of Berlin into our home. There will be 14 very short presentations and 6 installations all over the place.
 
+- name: "Science Salon #001"
+  date: 2017-05-07
+  time: 6:30pm
+  image: science_salon_001_small.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-05-07_science_salon_001
+  description: >
+   Is the art we make and culture we build simply an evocation of ancestral memories? What is the basal thread running through our creative inspirations... are they just entangled solutions ingrained biologically since before language? How have our experiences been changed by the technologies operating on symbolic representations of this world around us? All material suffers entropy but is all data lost with it?
+
 - name: openFrameworks Berlin Meetup
   date: 2017-03-10
   time: 7pm
