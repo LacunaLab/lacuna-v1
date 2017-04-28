@@ -15,6 +15,6 @@ For #13 of the Retune Studio Visit series, we at Lacuna Lab are welcoming the cr
 
 <b>Timetable</b>
 <br/>
-19:00 Open Doors<br/>
+19:00 Open doors<br/>
 20:00 First presentation batch<br/>
-21:00 Second Presentation batch<br/>
+21:00 Second presentation batch<br/>
