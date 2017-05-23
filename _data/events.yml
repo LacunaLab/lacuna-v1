@@ -1,6 +1,16 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
 
+- name: Gestural instruments workshop
+  date: 2017-06-04
+  time: 1pm
+  image: leap-sc3-small.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-06-04_gestural_instruments
+  description: >
+   Workshop on how to make new instruments for music and visual art that have no knobs, buttons, sliders, or dials.
+
 - name: Retune Studio Visit
   date: 2017-05-10
   time: 7pm
