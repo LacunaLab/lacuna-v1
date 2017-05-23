@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Gestural Instruments Workshop"
-date:   2017-06-04 13:00:00
-categories: Studio Visit
-image:	    "leap-sc3-small.png"
+title: "Gestural Instruments Workshop"
+date: 2017-06-04 13:00:00
+categories: Meetups
+image: "leap-sc3-small.png"
 ---
 
 
 [Facebook page for the event](https://www.facebook.com/events/263032290836760/)
+[RSVP](https://www.eventbrite.com/e/gestural-instruments-workshop-tickets-34825189078)
 
 This workshop is all about how to make new instruments for music and visual art that have no knobs, buttons, sliders, or dials. How do you turn a series of hand gestures into a musical score, convert a dance sequence into a light show, or make an installation respond to people’s smiles? We will learn how to create these interactions and many others during the course of this workshop.
 
@@ -17,6 +18,11 @@ This workshop is all about how to make new instruments for music and visual art 
  * *Timing*: 13:00-17:30 ++
  * *Workshop leader*: [Gene Kogan](http://www.genekogan.com/)
  * *Bring*: bring what you do! Your music/art software, your dance moves, your performative faculties. Or just your curiousity -- we'll have examples already setup.
+
+## RSVP
+
+Please RSVP at our [event page](https://www.eventbrite.com/e/gestural-instruments-workshop-tickets-34825189078)
+Kindly direct any questions to [Gene](mailto:"kogan.gene at gmail dot com").
 
 ## Full description + agenda
 
