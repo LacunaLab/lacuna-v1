@@ -16,15 +16,15 @@
 	    {% if page.url == "/" %}
             <img src="{{ "/img/brackets-grey.svg" | prepend: site.baseurl }}" alt="Lacuna Lab logo"/>
             <a linkTo="about" class="navbar-link">
-                <img id="headerBracket-scroll" 
-                src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
+                <img id="headerBracket-scroll"
+                src="{{ "/img/logo.svg" | prepend: site.baseurl }}"
                 alt="Lacuna Lab logo"/>
             </a>
 	    <!-- Logo behaviour for other pages -->
 	    {% else %}
             <a href="../index.html" class="navbar-link">
-                <img id="headerBracket-scroll" 
-                src="{{ "/img/logo.svg" | prepend: site.baseurl }}" 
+                <img id="headerBracket-scroll"
+                src="{{ "/img/logo.svg" | prepend: site.baseurl }}"
                 alt="Lacuna Lab logo"/>
             </a>
 	    {% endif %}
@@ -34,12 +34,12 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
+
         <div class="col-xs-12 col-xs-offset-0 col-sm-7 col-sm-offset-1">
           <ul id="mainNavigation" class="nav navbar-nav">
           {% if page.url == "/" %} <!-- Scrolling navigation for the homepage -->
             <li class="active"><a linkTo="about">ABOUT</a></li>
-            <li><a linkTo="opencall">OPEN CALL</a></li>
+            <li><a linkTo="opencall">JOIN</a></li>
             <li><a linkTo="events">EVENTS</a></li>
             <li><a linkTo="members">MEMBERS</a></li>
             <li><a linkTo="where">FIND US</a></li>
@@ -54,7 +54,7 @@
         </div>
       </div><!-- /.navbar-collapse -->
       <div id="secondaryNavigation">
-        
+
         <nav id="social-icons" class="hide-phone">
             <a href="https://vimeo.com/lacunalab" target="_blank" class="fa fa-vimeo-square fa-2x social-media-link"></a>
             <a href="https://twitter.com/lacunalab" target="_blank" class="fa fa-twitter-square fa-2x social-media-link"></a>
