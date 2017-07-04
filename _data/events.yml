@@ -1,5 +1,14 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: "Science Salon #002 <br>// Artist talk – Karolina Sobecka"
+  date: 2017-07-09
+  time: 6:30pm
+  image: science_salon_002.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-07-09_science_salon_002
+  description: >
+   Defining weather as information, the atmospheric processes as a new communication protocols, and genetic editing of the atmospheric microbiome as new information technology, this project investigates the way in which nature is appropriated by the institutions of property and ownership and how power is produced through the exercises of science and technology.
 
 - name: Gestural instruments workshop
   date: 2017-06-04
