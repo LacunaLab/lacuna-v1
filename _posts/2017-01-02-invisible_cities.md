@@ -11,11 +11,11 @@ Invisible Cities was a project in which we created generative satellite imagery 
 
 We trained pix2pix to translate map tiles into generative satellite images. We trained individual models for several cities–Milan, Venice, and Los Angeles, allowing us to do city map style transfer, like the following example:
 
-![city style transfer](https://opendot.github.io/ml4a-invisible-cities/assets/images/LA-33_8203--118_1651--176_000.jpg "city style transfer" =720x)
+![city style transfer](https://opendot.github.io/ml4a-invisible-cities/assets/images/LA-33_8203--118_1651--176_000.jpg =720x)
 
 More experimentally we could generate whole cityscapes from scratch by drawing the maps and feeding them to pix2pix, like so:
 
-![generative city](https://opendot.github.io/ml4a-invisible-cities/assets/main.png "generative city"  =720x)
+![generative city](https://opendot.github.io/ml4a-invisible-cities/assets/main.png =720x)
 
 More information and a [gallery](https://opendot.github.io/ml4a-invisible-cities/gallery/) can be found on the main page: [Invisible Cities](https://opendot.github.io/ml4a-invisible-cities/).
 
