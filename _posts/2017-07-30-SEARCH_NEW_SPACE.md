@@ -17,7 +17,6 @@ If you have any hints, drop us a message or get in touch with any of our members
     CONTACT: info at lacunalab.org
 
 
-  FINDERS REWARD: A SUPRISE
 
 ### DEUTSCH
 DRINGEND: Das Lacuna Lab ist auf der Suche nach einem neuen zu Hause. Und dafür brauchen wir Eure Unterstützung. 
@@ -30,6 +29,5 @@ schreib uns eine Mail.
     WO: Kreuzberg-Friedrichshain, Neukölln, Treptow
     KONTAKT: info at lacunalab.org
 
-    BELOHNUNG: eine Überaschung
 
 			
