@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: "Lacuna Lab seeks a new home"
-category: Lacuna Lab
+category: LacunaLab
 ---
 
 
@@ -12,7 +12,7 @@ Dringend: Das Lacuna Lab ist auf der Suche nach einem neuen zu Hause. Und dafür
     WAS WIR SUCHEN: Gewerbe Objekt  
     GRÖSSE: 150m2
     WO: Kreuzberg-Friedrichshain, Neukölln, Treptow
-    KONTAKT: info at lacunalab.org
+    KONTAKT: info at [lacunalab.org](http://www.lacunalab.org)
 
 
 ### English 
@@ -22,7 +22,7 @@ Urgent: Lacuna Lab is looking for a new home and we need your help. We are looki
     WHAT: Comercial Space for rent
     SIZE: 150m2
     WHERE: Kreuzberg-Friedrichshain, Neukölln, Treptow
-    CONTACT: info at lacunalab.org
+    CONTACT: info at [lacunalab.org](http://www.lacunalab.org)
 
 
 
