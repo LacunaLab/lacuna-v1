@@ -11,7 +11,7 @@ This time we bring together a few friends to talk about community science, bioha
 **Marc Dussellier** – Hackteria methodologies of temporary labs
 Hackteria is an international network active since 2009 in the field of Open Source Biological Art. As a community platform hackteria tries to encourage the collaboration of scientists, hackers and artists to combine their expertise, share simple instructions to work with lifescience technologies and cooperate on the organization of workshops, gatherings, retreats and [durational temporary labs](https://www.hackteria.org/wiki/Main_Page#HackteriaLabs.2C_Temporary_Labs_and_Collaborative_Production_Events). Especially the latter has been fundamental to establish international collaborations and initiate new projects. We will give an overview of how this radically transdisciplinary format has shaped our approach to community science.
 <br/><br/>
-**Julian Chollet** – The parallels between phage therapy and organic farming
+**Julian Chollet** – The parallels between phage therapy and organic farming. 
 What we can learn from the history, paradigms and celebrities of such seemingly unrelated fields.
 <br/><br/><br/>
 // BIOS<br/>
