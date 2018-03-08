@@ -13,12 +13,12 @@ Hackteria is an international network active since 2009 in the field of Open Sou
 <br/><br/>
 **Julian Chollet** – The parallels between phage therapy and organic farming
 What we can learn from the history, paradigms and celebrities of such seemingly unrelated fields.
-<br/><br/>
+<br/><br/><br/>
 // BIOS<br/>
-Marc Dusseiller aka dusjagr is a nomadic researcher and workshopologist. He is part of the Center for Alternative Coconut Research and co-founder of SGMK and the Hackteria network. He loves making DIWO laboratories for creative biological experimentation and works in an integral way, combining science, art and education. He has worked as guest faculty and mentor at various schools, Srishti Institute of Art, Design and Technology, Bangalore (IN), UCSB (USA) and in Switzerland, FHNW, HEAD, ETHZ. He lives and works in Zürich,Taipei and Yogyakarta. He also loves coconuts.
+Marc Dusseiller aka dusjagr is a nomadic researcher and workshopologist. He is part of the Center for Alternative Coconut Research and co-founder of SGMK and the [Hackteria network](https://www.hackteria.org/). He loves making DIWO laboratories for creative biological experimentation and works in an integral way, combining science, art and education. He has worked as guest faculty and mentor at various schools, Srishti Institute of Art, Design and Technology, Bangalore (IN), UCSB (USA) and in Switzerland, FHNW, HEAD, ETHZ. He lives and works in Zürich,Taipei and Yogyakarta. He also loves coconuts.
 <br/><br/>
-Julian Chollet is a curious student and informal teacher with a background in molecular biology. He is working on the endless and under-explored biodiversity of microbes, fungi and phages, with the aim to liberate the world from microphobia through workshopology, fermentation and microscopy. He is a member of the Global Hackteria Network and founder of the non-profit association mikroBIOMIK Society, which promotes intrinsic curiosity and participation in science - with a focus on invisible creatures.
-<br/><br/>
+Julian Chollet is a curious student and informal teacher with a background in molecular biology. He is working on the endless and under-explored biodiversity of microbes, fungi and phages, with the aim to liberate the world from microphobia through workshopology, fermentation and microscopy. He is a member of the Global [Hackteria Network](https://www.hackteria.org/) and founder of the non-profit association [mikroBIOMIK](https://mikrobiomik.org/) Society, which promotes intrinsic curiosity and participation in science - with a focus on invisible creatures.
+<br/><br/><br/>
 // Science Salon<br/>
 The Lacuna Science Salon is an irregular event series for friends organised by Lacunians Lucy Patterson and Gene Kogan – informal, accessible, and open to different topics: contemporary research, art-science, DIY science, science policy, history of science…
 <br/><br/>
