@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Science Salon #003 // Science Salon #003 // Community science night – Marc Dussellier & Julian Chollet"
-date:   2018-03-09 19:30:00
+title:  "Science Salon #003 // Community science night – Marc Dussellier & Julian Chollet"
+date:   2018-01-09 19:30:00
 categories: Talks
-image:	"science_salon_003.png"
+image:	"science_salon_003.jpg"
 ---
 
 This time we bring together a few friends to talk about community science, biohacking, methodologies and nomadic labs. A special topic for the evening will be SOIL and we hope to also hear a few words on some upcoming projects around soil ecology, urban gardening... If you like the kind of art or science that gets your hands dirty, then come along. Our plan is to keep the talks part short so there is plenty of time for chats.

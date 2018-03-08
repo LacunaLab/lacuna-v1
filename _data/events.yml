@@ -1,5 +1,15 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: "Science Salon #003 <br>// Community science night – Marc Dussellier & Julian Chollet"
+  date: 2018-03-09
+  time: 7:30pm
+  image: science_salon_003.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-03-09_science_salon_003
+  description: >
+   This time we bring together a few friends to talk about community science, biohacking, methodologies and nomadic labs. A special topic for the evening will be SOIL and we hope to also hear a few words on some upcoming projects around soil ecology, urban gardening... If you like the kind of art or science that gets your hands dirty, then come along. Our plan is to keep the talks part short so there is plenty of time for chats.
+
 - name: "Science Salon #002 <br>// Artist talk – Karolina Sobecka"
   date: 2017-07-09
   time: 6:30pm
