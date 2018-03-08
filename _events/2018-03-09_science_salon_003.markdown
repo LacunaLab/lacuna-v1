@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Science Salon #003 // Community science night – Marc Dussellier & Julian Chollet"
+title:  "Science Salon #003 // Community science night"
 date:   2018-03-09 19:30:00
 categories: Talks
 image:	"science_salon_003.jpg"
