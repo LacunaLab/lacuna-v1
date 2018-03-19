@@ -1,11 +1,14 @@
-- name: Cyborgs e.V.
-  website: http://cyborgs.cc
-  
 - name: Fabien Artal
   website: https://soundcloud.com/k-ii_n/
 
+- name: Sahar Homami
+  website: http://www.saharhomami.com/
+
 - name: Gene Kogan
   website: http://www.genekogan.com
+  
+- name: Mickey van Olst
+  website: https://mickeyvanolst.com/
   
 - name: Hiroshi Matoba
   website: http://dominofactory.net/
@@ -13,18 +16,15 @@
 - name: Jemma Woolmore
   website: http://www.jemthemisfit.com
   
-- name: Johanna Tano
-  website: https://www.instagram.com/johannatano/
+- name: Saki Hibino
+  website: http://sakihibino.com/
   
 - name: Lucy Patterson
   website: https://lucypatterson.de/
   
 - name: Marcel Schwittlick
   website: http://www.mrzl.net
-  
-- name: Morris Winkler
-  website: http://www.laydrop.com/
-  
+
 - name: Nahum
   website: http://nahum.xyz/
   
@@ -33,12 +33,12 @@
   
 - name: Nenad Popov
   website: http://morphogenesis.eu/
+    
+- name: Merlin Carter
+  website: http://merlincarter.com/
   
 - name: Peter A. Kolski
   website: http://www.BildPeter.de/
-  
-- name: Rin Raeuber
-  website: http://rin.li/
   
 - name: Sarah Hermanutz
   website: http://sarahhermanutz.com
@@ -81,3 +81,16 @@
 
 #- name: Nuño de la Serna		
 #  website: http://action-io.tumblr.com/
+
+#- name: Cyborgs e.V.
+#  website: http://cyborgs.cc
+
+#- name: Johanna Tano
+#  website: https://www.instagram.com/johannatano/
+
+#- name: Rin Raeuber
+#  website: http://rin.li/
+
+#- name: Morris Winkler
+#  website: http://www.laydrop.com/
+  
