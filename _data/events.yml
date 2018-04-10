@@ -1,5 +1,26 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: ART GRANT Writing Seminar & Workshop April 2018
+  date: 2018-04-21
+  time: 11am
+  image: berlinartgrantclinic_april_2018.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-04-21_artgrantclinic_april_2018
+  description: >
+    Lacuna Lab hosts Berlin Art Grant Clinic's GRANT DIAGNOSIS SEMINAR (21 April) and OPERATION WORKSHOP (22 April).
+    Further info at artgrantclinic.org.
+
+- name: In the Mood for Shaders – Workshop
+  date: 2018-04-14
+  time: 11am
+  image: shaders-bw.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-04-14_in_the_mood_for_shaders
+  description: >
+   This workshop is for people interested in computer graphics who want to use the power provided by the computer’s GPU processor to play with, improve and maybe glitch their visuals.
+
 - name: "Science Salon #003 <br>// Community science night – Marc Dussellier & Julian Chollet"
   date: 2018-03-09
   time: 7:30pm
@@ -60,7 +81,6 @@
   description: >
    Lacuna Lab is hosting the March 2017 openFrameworks meetup.
 
-
 - name: Serious Sparkles. An Inquiry into Artificial Stupidity
   date: 2017-02-10
   time: to Feb 11
@@ -72,7 +92,6 @@
    As part of Transmediale Vorspiel, we present a two-day exhibition of interactive artworks at Lacuna Lab, with a performance or talk on each evening.
    Visitors are invited to explore an elusive physical and digital snapshot of our ever-shifting collaborative
    activities across a range of tools and methods such as robotics, audio-visual performance, generative art and machine learning.
-
 
 - name: ART GRANT Writing Seminar & Workshop
   date: 2017-01-16
@@ -114,7 +133,6 @@
   location-city: Berlin
   description: >
     Marcel's been Frankenstein-ing up a laser cutter for Lacuna Lab.  Come learn how to use it!
-
 
 - name: The Weight of Words
   date: 2015-11-25
