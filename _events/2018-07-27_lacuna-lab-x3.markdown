@@ -41,4 +41,4 @@ Open from 5 pm to 9 pm
 **Gilbert Sinnott** Luneform 
 **Nenad Popov, Gilbert Sinnott, Bidisha Das, Fabien Artal** Syzygy (Lunar Eclipse) Live Performance 
 
-**On Facbook:** [https://www.facebook.com/events/1848379288571219/](https://www.facebook.com/events/1848379288571219/)
+**On Facebook:** [https://www.facebook.com/events/1848379288571219/](https://www.facebook.com/events/1848379288571219/)
