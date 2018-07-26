@@ -1,5 +1,16 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: Lacuna Lab x3
+  date: 2018-07-27
+  time: 6pm
+  image: LLX3_cover2.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-07-27_lacuna-lab-x3
+  description: >
+    Lacuna Lab is entering its fourth year of existence. 
+    Join us in a special, pop-up exhibition space for explorations in technology, art, science, orbital space, artificial intelligence and performative arts.
+
 - name: ART GRANT Writing Seminar & Workshop April 2018
   date: 2018-04-21
   time: 11am
