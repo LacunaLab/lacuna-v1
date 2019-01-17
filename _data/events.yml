@@ -1,5 +1,15 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: Vorspiel – Codescapes / Fully-Automated Luxury / Orbital Resonance
+  date: 2019-01-30
+  time: 7pm
+  image: vorspiel.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-01-30_vorspiel
+  description: >
+    For Transmediale's Vorspiel program 2019 Lacuna Lab present 3 audio-visual performances by RGGTRN, Autr / Nenad Popov, and Régis Lemberthe.
+
 - name: Davide Prati – Algorithmic Botany Workshop
   date: 2018-09-28
   time: 10am
@@ -9,7 +19,7 @@
   filename: 2018-09-28_davide-prati-algorithmic-botany
   description: >
     The workshop »Algorithmic Botany Workshop« gives an overview on how to write programs that generate 3D forms of trees and flowers. 
-    It focuses on two topics, phyllotaxis and L-Systems; exploring these two topics, the participants will discover the simple and beautiful mathematics hidden in plants. The knowledge acquired in this workshop can be applied to design, illustration, 3D printing, 3D modelling & video games.
+    It focuses on two topics, phyllotaxis and L-Systems; exploring these two topics, the participants will discover the simple and beautiful mathematics hidden in plants.
 
 - name: Lacuna Lab x3
   date: 2018-07-27
