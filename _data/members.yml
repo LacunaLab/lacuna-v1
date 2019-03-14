@@ -1,57 +1,64 @@
 - name: Fabien Artal
   website: https://soundcloud.com/k-ii_n/
 
-- name: Sahar Homami
+- name: Sahar Homami                  
   website: http://www.saharhomami.com/
 
-- name: Gene Kogan
-  website: http://www.genekogan.com
-  
-- name: Mickey van Olst
+- name: Mickey van Olst               
   website: https://mickeyvanolst.com/
-  
-- name: Hiroshi Matoba
-  website: http://dominofactory.net/
 
-- name: Jemma Woolmore
+- name: Jemma Woolmore                
   website: http://www.jemthemisfit.com
   
-- name: Saki Hibino
+- name: Saki Hibino                   
   website: http://sakihibino.com/
-  
-- name: Lucy Patterson
-  website: https://lucypatterson.de/
-  
-- name: Marcel Schwittlick
-  website: http://www.mrzl.net
 
-- name: Nahum
+- name: Nahum                         
   website: http://nahum.xyz/
   
-- name: Nayeli Vega
+- name: Nayeli Vega                     
   website: http://yokoiki.com  
   
-- name: Nenad Popov
+- name: Nenad Popov                     
   website: http://morphogenesis.eu/
     
-- name: Merlin Carter
+- name: Merlin Carter                     
   website: http://merlincarter.com/
   
-- name: Peter A. Kolski
-  website: http://www.BildPeter.de/
-  
-- name: Sarah Hermanutz
+- name: Sarah Hermanutz                   
   website: http://sarahhermanutz.com
   
-- name: Sé Sneaky
+- name: Sé Sneaky                         
   website: http://sesneaky.com
   
-- name: Thomas Heidtmann
-  website: http://www.thomasheidtmann.de/
+- name: Thomas Heidtmann                  
+  website: http://www.thomasheidtmann.de
 
-- name: Vincent Van Uffelen
+- name: Vincent Van Uffelen               
   website: http://vincentvanuffelen.com
 
+- name: Gilbert Sinnott                   
+  website: https://autr.tv
+
+- name: Albert Barque-Duran              
+  website: https://albertbarque.com/
+
+  
+# - name: Peter A. Kolski
+#   website: http://www.BildPeter.de/
+  
+# - name: Lucy Patterson
+#   website: https://lucypatterson.de/
+  
+# - name: Hiroshi Matoba
+#   website: http://dominofactory.net/
+
+# - name: Marcel Schwittlick
+#   website: http://www.mrzl.net
+
+# - name: Gene Kogan
+#   website: http://www.genekogan.com
+  
 #- name: Abe Pazos
 #  website: http://hamoid.com
 

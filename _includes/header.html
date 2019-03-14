@@ -39,7 +39,7 @@
           <ul id="mainNavigation" class="nav navbar-nav">
           {% if page.url == "/" %} <!-- Scrolling navigation for the homepage -->
             <li class="active"><a linkTo="about">ABOUT</a></li>
-            <li><a linkTo="opencall">JOIN</a></li>
+            <!-- <li><a linkTo="opencall">JOIN</a></li> -->
             <li><a linkTo="events">EVENTS</a></li>
             <li><a linkTo="members">MEMBERS</a></li>
             <li><a linkTo="where">FIND US</a></li>
@@ -55,12 +55,10 @@
       </div><!-- /.navbar-collapse -->
       <div id="secondaryNavigation">
 
-        <nav id="social-icons" class="hide-phone">
-            <a href="https://vimeo.com/lacunalab" target="_blank" class="fa fa-vimeo-square fa-2x social-media-link"></a>
-            <a href="https://twitter.com/lacunalab" target="_blank" class="fa fa-twitter-square fa-2x social-media-link"></a>
-            <a href="https://facebook.com/lacunalab" target="_blank" class="fa fa-facebook-square fa-2x social-media-link"></a>
-            <a href="https://lacunalab.tumblr.com" target="_blank" class="fa fa-tumblr-square fa-2x social-media-link"></a>
-        </nav>
+
+        <!-- <a href="mailto:info@lacunalab.org">Get in touch</a> -->
+        
+    {% include social-links.html %}
         <!--nav id="languages" class="columnPaddings">
           <a class="language-element">EN</a>
           <a class="language-element">DE</a>
