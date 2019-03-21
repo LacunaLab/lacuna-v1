@@ -9,6 +9,16 @@
   filename: 2019-03-18_VCB
   description: >
     A community meet-up for anyone interested in video circuitry, synthesis, visual coding, DIY electronics and tools.  
+    
+- name: Experiencing the world of Persian Calligraphy
+  date: 2019-03-16
+  time: 11.00am
+  image: calligraphy.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-03-16_calligraphy
+  description: >
+    Two-day Intensive Calligraphy Workshop of Persian Nastaʿlīq Script with Sahar Homami
 
 - name: Vorspiel – Codescapes / Fully-Automated Luxury / Orbital Resonance
   date: 2019-01-30
