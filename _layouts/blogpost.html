@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="container jumbotron">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-meta"><h3>{{ page.date | date: "%b %-d, %Y" }}{% if page.category %} by {{ page.category }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h3></p>
+    </header>
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </div>
+</div>

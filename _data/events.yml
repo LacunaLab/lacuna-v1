@@ -1,5 +1,137 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: Video Circuits Berlin
+  date: 2019-03-18
+  time: 6.30pm
+  image: VCB.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-03-18_VCB
+  description: >
+    A community meet-up for anyone interested in video circuitry, synthesis, visual coding, DIY electronics and tools.  
+    
+- name: Experiencing the world of Persian Calligraphy
+  date: 2019-03-16
+  time: 11.00am
+  image: calligraphy.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-03-16_calligraphy
+  description: >
+    Two-day Intensive Calligraphy Workshop of Persian Nastaʿlīq Script with Sahar Homami
+
+- name: Vorspiel – Codescapes / Fully-Automated Luxury / Orbital Resonance
+  date: 2019-01-30
+  time: 7pm
+  image: vorspiel.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-01-30_vorspiel
+  description: >
+    For Transmediale's Vorspiel program 2019 Lacuna Lab present 3 audio-visual performances by RGGTRN, Autr / Nenad Popov, and Régis Lemberthe.
+
+- name: Davide Prati – Algorithmic Botany Workshop
+  date: 2018-09-28
+  time: 10am
+  image: davide_prati_algorithmic_botany.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-09-28_davide-prati-algorithmic-botany
+  description: >
+    The workshop »Algorithmic Botany Workshop« gives an overview on how to write programs that generate 3D forms of trees and flowers. 
+    It focuses on two topics, phyllotaxis and L-Systems; exploring these two topics, the participants will discover the simple and beautiful mathematics hidden in plants.
+
+- name: Lacuna Lab x3
+  date: 2018-07-27
+  time: 6pm
+  image: LLX3_cover2.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-07-27_lacuna-lab-x3
+  description: >
+    Lacuna Lab is entering its fourth year of existence. 
+    Join us in a special, pop-up exhibition space for explorations in technology, art, science, orbital space, artificial intelligence and performative arts.
+
+- name: ART GRANT Writing Seminar & Workshop April 2018
+  date: 2018-04-21
+  time: 11am
+  image: berlinartgrantclinic_april_2018.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-04-21_artgrantclinic_april_2018
+  description: >
+    Lacuna Lab hosts Berlin Art Grant Clinic's GRANT DIAGNOSIS SEMINAR (21 April) and OPERATION WORKSHOP (22 April).
+    Further info at artgrantclinic.org.
+
+- name: In the Mood for Shaders – Workshop
+  date: 2018-04-14
+  time: 11am
+  image: shaders-bw.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-04-14_in_the_mood_for_shaders
+  description: >
+   This workshop is for people interested in computer graphics who want to use the power provided by the computer’s GPU processor to play with, improve and maybe glitch their visuals.
+
+- name: "Science Salon #003 <br>// Community science night – Marc Dussellier & Julian Chollet"
+  date: 2018-03-09
+  time: 7:30pm
+  image: science_salon_003.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2018-03-09_science_salon_003
+  description: >
+   This time we bring together a few friends to talk about community science, biohacking, methodologies and nomadic labs. A special topic for the evening will be SOIL and we hope to also hear a few words on some upcoming projects around soil ecology, urban gardening... If you like the kind of art or science that gets your hands dirty, then come along. Our plan is to keep the talks part short so there is plenty of time for chats.
+
+- name: "Science Salon #002 <br>// Artist talk – Karolina Sobecka"
+  date: 2017-07-09
+  time: 6:30pm
+  image: science_salon_002.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-07-09_science_salon_002
+  description: >
+   Defining weather as information, the atmospheric processes as a new communication protocols, and genetic editing of the atmospheric microbiome as new information technology, this project investigates the way in which nature is appropriated by the institutions of property and ownership and how power is produced through the exercises of science and technology.
+
+- name: Gestural instruments workshop
+  date: 2017-06-04
+  time: 1pm
+  image: leap-sc3-small.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-06-04_gestural_instruments
+  description: >
+   Workshop on how to make new instruments for music and visual art that have no knobs, buttons, sliders, or dials.
+
+- name: Retune Studio Visit
+  date: 2017-05-10
+  time: 7pm
+  image: studio_visit_logo_small_notext.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-05-10_retune_studio_visit
+  description: >
+   For #13 of the Retune Studio Visit series, we at Lacuna Lab are welcoming the creative tech community of Berlin into our home. There will be 14 very short presentations and 6 installations all over the place.
+
+- name: "Science Salon #001"
+  date: 2017-05-07
+  time: 6:30pm
+  image: science_salon_001_small.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-05-07_science_salon_001
+  description: >
+   Is the art we make and culture we build simply an evocation of ancestral memories? What is the basal thread running through our creative inspirations... are they just entangled solutions ingrained biologically since before language? How have our experiences been changed by the technologies operating on symbolic representations of this world around us? All material suffers entropy but is all data lost with it?
+
+- name: openFrameworks Berlin Meetup
+  date: 2017-03-10
+  time: 7pm
+  image: openFrameworks.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2017-03-10_open_frameworks
+  description: >
+   Lacuna Lab is hosting the March 2017 openFrameworks meetup.
 
 - name: Serious Sparkles. An Inquiry into Artificial Stupidity
   date: 2017-02-10
@@ -11,8 +143,7 @@
   description: >
    As part of Transmediale Vorspiel, we present a two-day exhibition of interactive artworks at Lacuna Lab, with a performance or talk on each evening.
    Visitors are invited to explore an elusive physical and digital snapshot of our ever-shifting collaborative
-   activities across a range of tools and methods such as robotics, audio-visual performance, generative art and machine learning.  
-
+   activities across a range of tools and methods such as robotics, audio-visual performance, generative art and machine learning.
 
 - name: ART GRANT Writing Seminar & Workshop
   date: 2017-01-16
@@ -24,7 +155,7 @@
   description: >
     Lacuna Lab hosts Berlin Art Grant Clinic's GRANT DIAGNOSIS SEMINAR (16-17 January) and OPERATION WORKSHOP (24-25 January).
     Further info at artgrantclinic.org.
-    
+
 - name: Lacuna Lab Activation Exhibition
   date: 2016-04-22
   time: 7pm
@@ -54,7 +185,6 @@
   location-city: Berlin
   description: >
     Marcel's been Frankenstein-ing up a laser cutter for Lacuna Lab.  Come learn how to use it!
-
 
 - name: The Weight of Words
   date: 2015-11-25

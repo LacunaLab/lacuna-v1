@@ -1,0 +1,11 @@
+{
+	"name": "lacuna-lab",
+	"version": 2,
+	"routes": [
+	{"src": "^/js/(.*)", "dest": "/_site/js/$1"},
+	{"src": "^/css/(.*)", "dest": "/_site/css/$1"},
+	{"src": "^/img/(.*)", "dest": "/_site/img/$1"},
+	{"src": "^/fonts/(.*)", "dest": "/fonts/$1"},
+	{"src": "/", "dest": "/_site/index.html"}
+	]
+}
