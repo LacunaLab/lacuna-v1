@@ -65,9 +65,13 @@ var CodeWrapper = (function() {
 				this.$canvas_container.height()
 			);
 			if (this.logoApp.resizeCanvas)
-				this.ogoApp.resizeCanvas();
+				this.logoApp.resizeCanvas();
 
 		}).bind(this);
+
+		window.preload = (function() {
+            this.logoApp.preload();
+        }).bind(this);
 
 		window.setup = (function() {
 			this.canvas = createCanvas( 

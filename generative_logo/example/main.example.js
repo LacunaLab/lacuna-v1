@@ -59,6 +59,13 @@ var LogoApp = (function() {
 /*
  * Here is where the magic happens.
  */
+    LogoApp.prototype.preload = function() {
+    /*
+     * load assets here
+     * setup() waits until preload() is done
+     */
+    }
+
 	LogoApp.prototype.setup = function() {
 		stroke(0);
 		noFill();
