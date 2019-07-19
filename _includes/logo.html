@@ -1,0 +1,12 @@
+<script>
+	window.generative_logo_sketches = [
+	   {% for source in site.static_files %}{%
+      if source.path contains '/generative_logo'
+         and source.basename == 'main'
+         and source.extname == '.js'
+      %}'{{source.path}}',
+      {% endif %}{% endfor %}
+	];
+</script>
+
+<script src="/js/logo.js"></script>
