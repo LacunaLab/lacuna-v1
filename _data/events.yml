@@ -1,5 +1,15 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: A Vital Piece of Information – Fragments of a Greater Context  
+  date: 2019-10-18
+  time: to Oct 27th 
+  image: vital-piece.jpg
+  location: Uqbar
+  location-city: Berlin
+  filename: 2019-10-18_a-vital-piece-of-information
+  description: >
+    The exhibition brings together two contemporary artistic positions from India and Pakistan, intersecting in their inquiry on information, technology, humans and time. Their specific topics of interest, methods, and perspectives are fundamentally different, yet they are united in their wish to reveal a hidden truth that is constituting our present. Both artists are currently residents at Lacuna Lab.
+
 - name: Blender 3D Meetup
   date: 2019-10-11
   time: 7.00pm
@@ -8,9 +18,7 @@
   location-city: Berlin
   filename: 2019-10-11_blender-3d-meetup
   description: >
-    In this workshop you will learn about hypnosis as a tool for art experimentation and production. 
-
-
+    Join the Blender 3D Meetup this Friday at Lacuna Lab, starting at 7 pm! Featuring presentations by Nayeli Vega and Carolina Romano.
 - name: Arts & Hyponosis Workshop
   date: 2019-07-14
   time: 6.30pm
