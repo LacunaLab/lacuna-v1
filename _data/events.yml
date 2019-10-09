@@ -1,5 +1,16 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: Blender 3D Meetup
+  date: 2019-10-11
+  time: 7.00pm
+  image: nayeli_carol.png
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-10-11_blender-3d-meetup
+  description: >
+    In this workshop you will learn about hypnosis as a tool for art experimentation and production. 
+
+
 - name: Arts & Hyponosis Workshop
   date: 2019-07-14
   time: 6.30pm
