@@ -1,5 +1,15 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: Workshop &#58; Introduction to Blender 2.8
+  date: 2019-11-16
+  time: to Oct 27th 
+  image: blender-workshop.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-11-16_introduction-to-blender
+  description: >
+    In this workshop you will learn the basics of Blender 2.8. You will be able to navigate fluently within the software, and understand the building blocks for creating a 3D project. We will focus on all the general tools that Blender has to create models, textures, materials lighting and rendering.
+    
 - name: A Vital Piece of Information – Fragments of a Greater Context  
   date: 2019-10-18
   time: to Oct 27th 
