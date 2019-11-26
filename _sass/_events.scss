@@ -83,6 +83,20 @@
     } 
   }
 
+  .panel {
+    padding-bottom: 10px;
+  }
 
+  // hack for archive gallery
+  #events-archive-container {
+    $break-small: 768px;
+    @media (min-width: $break-small) {
+        .col-xs-12.col-sm-4 {
+            float: none;
+            display: inline-table;
+            width: 32.2%;
+        }
+    }
+  }
 
 }

@@ -1,15 +1,19 @@
+---
+layout: default
+title: Events
+permalink: /events/
+---
+
 <div class="container highlight" data-highlight-menu="events">
-  <div class="row">
+  <div class="row" style="padding-top: 70px;">
     <div class="col-xs-9 col-xs-push-2">
 
-      <div class="row">
-          <div class="col-sm-8"><h2>Lacuna Events</h2></div>
-          <div class="col-sm-4 text-center"><h2><a href="/events" class="btn btn-default">See all Events</a></h2></div>
-      </div>
-      <div class="row">
-          {% for event in site.data.events limit:3 %}
+      <div class="row" id="events-archive-container">
+          <h2 class="col-xs-12">Lacuna Events Archive</h2>
+          
+          {% for event in site.data.events %}
           <div class="col-xs-12 col-sm-4">
-            <a href="events/{{ event.filename }}.html">
+            <a href="/events/{{ event.filename }}.html">
               <div class="panel panel-default" style="border:0px solid;">
                   <p class="event_month">
                       {% assign m = event.date | date: "%B" %}
@@ -31,15 +35,15 @@
 
                   <p class="event_time">{{ event.time }}</p>
                   <div class="row">
-                    <img src="img/events/{{ event.image }}" class="event_image"/>
+                    <img src="/img/events/{{ event.image }}" class="event_image" />
                   </div>
-                  <p class="event_title">{{event.name}}</p>
+                  <p class="event_title">{{ event.name }}</p>
                   <hr class="event_line">
-                  <p class="event_location">{{event.location}}</p>
+                  <p class="event_location">{{ event.location }}</p>
 
-                  <p class="event_location_city">{{event.location-city}}</p>
+                  <p class="event_location_city">{{ event.location-city }}</p>
 
-                  <p class="event_description">{{event.description}}</p>
+                  <p class="event_description">{{ event.description }}</p>
               </div>
             </a>
           </div>
