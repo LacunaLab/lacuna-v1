@@ -50,4 +50,5 @@ For registration or further information contact Carolina Romano:
 
 𝗦𝗰𝗵𝗲𝗱𝘂𝗹𝗲:
 
-[Schedule_workshop_Introduction_Blender_CarolinaRomano.pdf](http://andraditastudio.com/blender_workshop/Schedule_workshop_Introduction_Blender_CarolinaRomano.pdf)
+Schedule workshop Introduction Blender Carolina Romano: [Schedule_workshop.pdf](http://andraditastudio.com/blender_workshop/Schedule_workshop_Introduction_Blender_CarolinaRomano.pdf)
+
