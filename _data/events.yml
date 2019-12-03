@@ -1,5 +1,15 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: Video Circuits Berlin
+  date: 2019-12-05
+  time: to Oct 27th 
+  image: vcb003.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2019-12-05_vcb
+  description: >
+    VCB is a community meet-up for anyone interested or curious about video circuitry, synthesis, visual coding, DIY electronics and tools. Attendees are welcomed to come plug and play on provided TVs and projectors, with presentations from: VanTa, Manolo Gamboa Naon, Ilu Vatar
+    
 - name: Workshop &#58; Introduction to Blender 2.8
   date: 2019-11-16
   time: to Oct 27th 
