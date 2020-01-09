@@ -1,8 +1,18 @@
 # This is just a placeholder file to populate the events template.
 # We may wish to use a different data source than this static file for our events...
+- name: Fire is the air the poet breath(es)
+  date: 2020-01-31
+  time: 18:00 
+  image: vorspiel2020-image_landscape.jpg
+  location: Lacuna Lab
+  location-city: Berlin
+  filename: 2020-01-31_fire-air
+  description: >
+    For Vorspiel 2020, Lacuna Lab invites you to a member exhibition. Scanned bodies will be transformed into 3D entities, games played in potential caravans and gatherings take place around the images and sounds of digital campfires.
+
 - name: Video Circuits Berlin
   date: 2019-12-05
-  time: to Oct 27th 
+  time: 
   image: vcb003.jpg
   location: Lacuna Lab
   location-city: Berlin
@@ -12,7 +22,7 @@
     
 - name: Workshop &#58; Introduction to Blender 2.8
   date: 2019-11-16
-  time: to Oct 27th 
+  time: 
   image: blender-workshop.jpg
   location: Lacuna Lab
   location-city: Berlin
